@@ -1,0 +1,195 @@
+<truScript platform="FF8.0.1" engineVersion="11.52.4391.0" timestamp="Thu Sep 12 2013 09:20:50 GMT+0530">
+<step type="block" stepId="step:{00000000-0000-0000-0000-000000000001}" action="TopStep" level="1">
+  <step type="block" stepId="step:{00000000-0000-0000-0000-000000000002}" action="action" section="Script" level="43">
+    <step type="block" stepId="step:{00000000-0000-0000-0000-000000000003}" action="action" section="Init" level="43"/>
+    <step type="block" stepId="step:{00000000-0000-0000-0000-000000000004}" action="action" section="Action" level="43">
+      <step type="testObject" testObject="testObj:{00000000-0000-0000-0000-000000000001}" stepId="step:{86257855-01b1-4d1e-a55c-f54b509dd95c}" action="Navigate" level="1" arguments="{&quot;Location&quot;:&quot;\&quot;http://16.59.127.14/webtours/\&quot;&quot;}" index="1" recDuration="2" autoEndEvent="Document Loaded"/>
+      <step type="block" stepId="step:{1b0f1ab1-9282-4cfb-97fa-00173b73fc04}" action="form (1)" level="1" index="2">
+        <step type="testObject" testObject="testObj:{1d61fc17-4b12-4fc4-afe5-1a6a9e6b5956}" stepId="step:{334fed22-b16a-4c12-aafa-1e684cc2a5c1}" action="Click" level="2" arguments="{&quot;X Coordinate&quot;:22,&quot;Y Coordinate&quot;:11}" index="1"/>
+        <step type="testObject" testObject="testObj:{1d61fc17-4b12-4fc4-afe5-1a6a9e6b5956}" stepId="step:{db5467f7-dbc5-47ba-b379-e024264f17e5}" action="Type" level="1" arguments="{&quot;Value&quot;:&quot;\&quot;jojo\&quot;&quot;}" index="2" autoEndEvent="Action completed"/>
+        <step type="testObject" testObject="testObj:{533d5ca5-5898-46ae-be7d-d1130b5b0dcc}" stepId="step:{2ea67235-84fb-4334-a46f-07ca348a7b70}" action="Type" level="1" arguments="{&quot;Value&quot;:&quot;\&quot;bean\&quot;&quot;}" index="3" autoEndEvent="Action completed"/>
+        <step type="testObject" testObject="testObj:{533d5ca5-5898-46ae-be7d-d1130b5b0dcc}" stepId="step:{02ae82f1-57bb-4568-86fa-3c0ae0785d53}" action="Press Key" level="1" arguments="{&quot;Key Name&quot;:&quot;\&quot;Enter\&quot;&quot;}" index="4" recDuration="5" autoEndEvent="Step synchronous network completed"/>
+      </step>
+      <step type="testObject" testObject="testObj:{e31d7723-1f47-4f8d-ac84-b533f5e21c80}" stepId="step:{afbd5f73-664b-4937-9c32-86b0cfe763c7}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:53,&quot;Y Coordinate&quot;:13}" index="3" autoEndEvent="Step synchronous network completed"/>
+    </step>
+    <step type="block" stepId="step:{00000000-0000-0000-0000-000000000005}" action="action" section="End" level="43"/>
+    <step type="block" stepId="step:{00000000-0000-0000-0000-000000000006}" action="Handlers" section="Handlers" level="43"/>
+    <step type="runLogic" name="default" stepId="step:{00000000-0000-0000-0000-000000000007}" action="default" level="43">
+      <step type="control" stepId="step:{00000000-0000-0000-0000-000000000101}" action="ref" level="43" arguments="{}" refStepId="step:{00000000-0000-0000-0000-000000000003}" actionName="Init"/>
+      <step type="control" stepId="step:{00000000-0000-0000-0000-000000000102}" action="ref" level="43" arguments="{}" refStepId="step:{00000000-0000-0000-0000-000000000004}" actionName="Action"/>
+      <step type="control" stepId="step:{00000000-0000-0000-0000-000000000103}" action="ref" level="43" arguments="{}" refStepId="step:{00000000-0000-0000-0000-000000000005}" actionName="End"/>
+    </step>
+  </step>
+  <step type="block" stepId="step:{00000000-0000-0000-0000-000000000008}" action="block" section="Libraries" level="43"/>
+</step>
+<testObjects><testObject testObjId="testObj:{25b147de-83d6-45e8-bfa6-ad73f80e0d27}" fallbackName="form (1)"><roles><role>element</role><role>form</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.593704,
+"implData":{
+	"ctxScore":0.6,
+	"electors":[
+		{ "id" : "tagName", "value" : "FORM", "score" : 0.1 }, 
+		{ "id" : "text", "value" : {"text":"           Username      Password          ","tagName":"FORM"}, "score" : 0.4 }, 
+		{ "id" : "form/action", "value" : "login.pl", "score" : 0.2 }, 
+		{ "id" : "form/method", "value" : "post", "score" : 0.05 }, 
+		{ "id" : "leaf", "value" : false, "score" : 0.01 }
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 1,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 1,
+						"text": 1,
+						"form/action": 1,
+						"form/method": null,
+						"leaf": null
+				},
+				"secondaryScore": 0,
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"/html/body/form",
+	"suggestions":["/html/body/form"]
+}
+}]]></ident></idents><methods><![CDATA[{
+}]]></methods></testObject><testObject testObjId="testObj:{1d61fc17-4b12-4fc4-afe5-1a6a9e6b5956}" autoName="Username"><roles><role>element</role><role>focusable</role><role>textbox</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.407485,
+"contextObj":"testObj:{25b147de-83d6-45e8-bfa6-ad73f80e0d27}",
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{ "id" : "name", "value" : {"name":"username","isValidWord":true}, "score" : 0.3 }, 
+		{ "id" : "input/type", "value" : "text", "score" : 0.05 }, 
+		{ "id" : "tagName", "value" : "INPUT", "score" : 0.1 }, 
+		{ "id" : "leaf", "value" : true, "score" : 0.01 }
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 5,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 5,
+						"name": 1,
+						"input/type": 1,
+						"leaf": null
+				},
+				"secondaryScore": 0,
+				"totalCandidates": 1
+		},
+		"testObj:{25b147de-83d6-45e8-bfa6-ad73f80e0d27}": {
+				"totalObjs": 5,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 5,
+						"name": 1,
+						"input/type": 1,
+						"leaf": null
+				},
+				"secondaryScore": 0,
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"//input[@type=\"text\" and @name=\"username\"]",
+	"suggestions":["//input[@type=\"text\" and @name=\"username\"]","/html/body/form/table/tbody/tr[4]/td[2]/input"]
+}
+}]]></ident></idents><methods><![CDATA[{getValue:function () {
+    return this.object.value;
+},
+setValue:function (value) {
+    this.object.value = value;
+}
+}]]></methods></testObject><testObject testObjId="testObj:{533d5ca5-5898-46ae-be7d-d1130b5b0dcc}" autoName="Password"><roles><role>element</role><role>focusable</role><role>textbox</role><role>passwordbox</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.407485,
+"contextObj":"testObj:{25b147de-83d6-45e8-bfa6-ad73f80e0d27}",
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{ "id" : "name", "value" : {"name":"password","isValidWord":true}, "score" : 0.3 }, 
+		{ "id" : "input/type", "value" : "password", "score" : 0.05 }, 
+		{ "id" : "tagName", "value" : "INPUT", "score" : 0.1 }, 
+		{ "id" : "leaf", "value" : true, "score" : 0.01 }
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 5,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 5,
+						"name": 1,
+						"input/type": 1,
+						"leaf": null
+				},
+				"secondaryScore": 0,
+				"totalCandidates": 1
+		},
+		"testObj:{25b147de-83d6-45e8-bfa6-ad73f80e0d27}": {
+				"totalObjs": 5,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 5,
+						"name": 1,
+						"input/type": 1,
+						"leaf": null
+				},
+				"secondaryScore": 0,
+				"totalCandidates": 1
+		}
+}
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"//input[@type=\"password\" and @name=\"password\"]",
+	"suggestions":["//input[@type=\"password\" and @name=\"password\"]","/html/body/form/table/tbody/tr[6]/td[2]/input"]
+}
+}]]></ident></idents><methods><![CDATA[{getValue:function () {
+    return this.object.value;
+},
+setValue:function (value) {
+    this.object.value = value;
+}
+}]]></methods></testObject><testObject testObjId="testObj:{e31d7723-1f47-4f8d-ac84-b533f5e21c80}" autoName="SignOff Button"><roles><role>element</role><role>link</role><role>image</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.7358630500000001,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{ "id" : "alt", "value" : "SignOff Button", "score" : 0.3 }, 
+		{ "id" : "img/src", "value" : "/WebTours/images/signoff.gif", "score" : 0.3 }, 
+		{ "id" : "a/href", "value" : {"url":"welcome.pl?signOff=","protocol":"http:","host":"...","pathname":"/webtours/welcome.pl","search":"?signOff="}, "score" : 0.45000000000000007 }, 
+		{ "id" : "tagName", "value" : "IMG", "score" : 0.01 }, 
+		{ "id" : "leaf", "value" : true, "score" : 0.01 }
+	],
+	"secondaryData":{
+		"default": {
+				"totalObjs": 7,
+				"maxObjsPerElector": 200,
+				"total": {
+						"tagName": 6,
+						"alt": 1,
+						"img/src": 1,
+						"a/href": 2,
+						"leaf": null
+				},
+				"secondaryScore": 0.14241107587500004,
+				"totalCandidates": 4
+		}
+}
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"/html/body/center/center/a[4]/img",
+	"suggestions":["/html/body/center/center/a[4]/img","//img[@alt=\"SignOff Button\"]"]
+}
+}]]></ident></idents><methods><![CDATA[{
+}]]></methods></testObject></testObjects>
+<transactions/>
+</truScript>
