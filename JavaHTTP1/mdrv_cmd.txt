@@ -1,0 +1,1 @@
+-usr "C:\tests\JavaHTTP1\JavaHTTP1.usr" -drv_log_file "C:\tests\JavaHTTP1\mdrv.log" -qt_result_dir "C:\tests\JavaHTTP1\result1" -extra_ext rtc_client -extra_ext vugdbg_ext -cci_elevel -msg_suffix_enable 0 -out "C:\tests\JavaHTTP1\" -correlation_files -param_non_working_days 6,7 -product_name vugen -pid 4016 -vugen_win 3409104 -vugen_animate_delay 1 -param_log_timestamp_flag  0
