@@ -1,0 +1,58 @@
+[Recorded Actions]
+Script-View=1
+vuser_init=0
+Action=0
+vuser_end=0
+[VisibleActions]
+Script-View=1
+vuser_init=0
+Action=0
+vuser_end=0
+[Actions]
+Script-View=Script-View.c
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[ExtraFiles]
+JS-functions.js=
+globals.h=
+C-functions.c=
+[General]
+AdditionalTypes=TC4Mobile
+DevelopTool=Vugen
+GlobalParameterFile=
+Type=TC4Mobile
+DefaultCfg=default.cfg
+LastModifyVer=..0.0
+NewFunctionHeader=1
+GenerateTypes=TC4Mobile
+ParameterFile=IOS.prm
+MajorVersion=
+ActiveTypes=TC4Mobile
+LastActiveAction=Action
+MinorVersion=
+[RunLogicFiles]
+Default Profile=default.usp
+[CfgFiles]
+Default Profile=default.cfg
+[VuserProfiles]
+Profiles=Default Profile
+[Interpreters]
+Script-View=no
+vuser_init=no
+Action=no
+vuser_end=no
+[Modified Actions]
+Script-View=0
+vuser_init=0
+Action=0
+vuser_end=0
+[Replayed Actions]
+Script-View=0
+vuser_init=0
+Action=0
+vuser_end=0
+[TransactionsOrder]
+Order="Transaction 1"
+[Transactions]
+"Transaction 1"=
