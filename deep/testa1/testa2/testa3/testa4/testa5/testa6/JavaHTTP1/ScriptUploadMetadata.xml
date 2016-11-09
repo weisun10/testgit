@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>JavaHTTP1</ScriptName>
+  <Protocol>Java over HTTP</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.java" Filter="2" />
+    <FileEntry Name="Actions.java" Filter="2" />
+    <FileEntry Name="vuser_end.java" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="JavaHTTP1.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="2" />
+    <FileEntry Name="Bookmarks.xml" Filter="2" />
+    <FileEntry Name="Breakpoints.xml" Filter="2" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="2" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="2" />
+    <FileEntry Name="UserTasks.xml" Filter="2" />
+    <FileEntry Name="Action.c" Filter="1" />
+    <FileEntry Name="Actions.class" Filter="1" />
+    <FileEntry Name="Actions.java.bak" Filter="1" />
+    <FileEntry Name="Actions.java.sed" Filter="1" />
+    <FileEntry Name="JavaHTTP1.sdf" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
+    <FileEntry Name="vuser_end.c" Filter="1" />
+    <FileEntry Name="vuser_init.c" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

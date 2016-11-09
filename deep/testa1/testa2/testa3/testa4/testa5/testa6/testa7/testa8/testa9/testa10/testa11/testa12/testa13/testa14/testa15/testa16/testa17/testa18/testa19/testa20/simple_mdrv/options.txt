@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\exchange\simple_mdrv
+-IC:\Program Files (x86)\HP\Load Generator\include
+-ec:\exchange\simple_mdrv\logfile.log
+c:\exchange\simple_mdrv\combined_simple_mdrv.c
+c:\exchange\simple_mdrv\pre_cci.c

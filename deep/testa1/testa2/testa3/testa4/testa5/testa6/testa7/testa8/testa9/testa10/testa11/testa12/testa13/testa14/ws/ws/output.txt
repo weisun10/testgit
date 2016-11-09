@@ -1,0 +1,22 @@
+Virtual User Script started at : 8/15/2016 10:13:51 AM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.53.0 for Windows 7; build 1203 (Aug 15 2016 19:13:20)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\tests\ws\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(22): <SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" ><SOAP-ENV:Body><createShipmentResponse ><completedShipmentInfo><allCompletedShipments><completedShipments><shipments><shipmentNumber>BJ246374296GB</shipmentNumber></shipments></completedShipments></allCompletedShipments></completedShipmentInfo></createShipmentResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+Action.c(25): "lr_xml_get_values" succeeded, 1 match processed
+Action.c(29): shipmentNumber is: BJ246374296GB
+Action.c(31): "lr_xml_get_values" succeeded, 1 match processed
+Action.c(35): shipmentNumber is: BJ246374296GB
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

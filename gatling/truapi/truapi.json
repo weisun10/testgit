@@ -1,0 +1,16 @@
+{
+  "version": "0.0.0",
+  "test": {
+    "script": "./base_test.js"
+  },
+  "local": {
+    "vuserCount": 3,
+    "policy": {
+      "start": { "type": "allTogether" },
+      "duration": { "type": "iterationBased", "param": 10 },
+      "end": { "type": "allTogether" }
+    }
+  },
+  "transactions": ["tran1", "tran2"]
+}
+
