@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\tests\ws
+-IC:\Program Files\HP\LoadRunner\include
+-ec:\tests\ws\\logfile.log
+c:\tests\ws\\combined_ws.c
+c:\tests\ws\\pre_cci.c
