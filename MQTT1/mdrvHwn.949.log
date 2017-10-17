@@ -1,0 +1,62 @@
+19/09/2017 13:14:25 Warning: Invalid 'Per-function automatic transactions' setting value, fall back to the default: false
+Start auto log messages stack - Iteration 16034.
+Starting action Action.
+19/09/2017 13:14:39 Action.c(6): Wait for messages to arrive to the Inbox
+19/09/2017 13:14:39 Action.c(6): Inbox size: 1 messages
+19/09/2017 13:14:39 Action.c(11): Reading message from Inbox
+19/09/2017 13:14:39 Action.c(11): Message saved to cache, ID = 79163648
+19/09/2017 13:14:39 Action.c(11): Read Inbox successfully
+19/09/2017 13:14:39 Action.c(12): Retrieve payload of the message with ID = 79163648
+19/09/2017 13:14:39 Action.c(13): Retrieve topic of the message with ID = 79163648
+19/09/2017 13:14:39 Action.c(14): Retrieve payload length of the message with ID = 79163648
+received message with size 9 from <topic>
+payload <payload>
+19/09/2017 13:14:39 Action.c(19): Dispose message with ID = 79163648
+19/09/2017 13:14:39 Action.c(30): Publishing 9 bytes to <topic>
+19/09/2017 13:14:39 Action.c(30): Error: Server closed the connection. Probably, another client with Client ID '<insert Client ID>' has just connected, or the server doesn't support the passed parameters.
+End auto log messages stack.
+
+
+Start auto log messages stack - Iteration 20957.
+Starting action Action.
+19/09/2017 13:14:54 Action.c(6): Wait for messages to arrive to the Inbox
+19/09/2017 13:14:54 Action.c(6): Inbox size: 1 messages
+19/09/2017 13:14:54 Action.c(11): Reading message from Inbox
+19/09/2017 13:14:54 Action.c(11): Message saved to cache, ID = 88469592
+19/09/2017 13:14:54 Action.c(11): Read Inbox successfully
+19/09/2017 13:14:54 Action.c(12): Retrieve payload of the message with ID = 88469592
+19/09/2017 13:14:54 Action.c(13): Retrieve topic of the message with ID = 88469592
+19/09/2017 13:14:54 Action.c(14): Retrieve payload length of the message with ID = 88469592
+received message with size 9 from <topic>
+payload <payload>
+19/09/2017 13:14:54 Action.c(19): Dispose message with ID = 88469592
+19/09/2017 13:14:54 Action.c(30): Publishing 9 bytes to <topic>
+19/09/2017 13:14:54 Action.c(30): Error: Server closed the connection. Probably, another client with Client ID '<insert Client ID>' has just connected, or the server doesn't support the passed parameters.
+End auto log messages stack.
+
+
+Start auto log messages stack - Iteration 21455.
+Starting action Action.
+19/09/2017 13:15:09 Action.c(6): Wait for messages to arrive to the Inbox
+19/09/2017 13:15:09 Action.c(6): Error: Server closed the connection. Probably, another client with Client ID '<insert Client ID>' has just connected, or the server doesn't support the passed parameters.
+End auto log messages stack.
+
+
+Start auto log messages stack - Iteration 22207.
+Starting action Action.
+19/09/2017 13:15:24 Action.c(6): Wait for messages to arrive to the Inbox
+19/09/2017 13:15:24 Action.c(6): Inbox size: 1 messages
+19/09/2017 13:15:24 Action.c(11): Reading message from Inbox
+19/09/2017 13:15:24 Action.c(11): Message saved to cache, ID = 96662208
+19/09/2017 13:15:24 Action.c(11): Read Inbox successfully
+19/09/2017 13:15:24 Action.c(12): Retrieve payload of the message with ID = 96662208
+19/09/2017 13:15:24 Action.c(13): Retrieve topic of the message with ID = 96662208
+19/09/2017 13:15:24 Action.c(14): Retrieve payload length of the message with ID = 96662208
+received message with size 9 from <topic>
+payload <payload>
+19/09/2017 13:15:24 Action.c(19): Dispose message with ID = 96662208
+19/09/2017 13:15:24 Action.c(30): Publishing 9 bytes to <topic>
+19/09/2017 13:15:24 Action.c(30): Error: Server closed the connection. Probably, another client with Client ID '<insert Client ID>' has just connected, or the server doesn't support the passed parameters.
+End auto log messages stack.
+
+

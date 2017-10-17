@@ -1,0 +1,42 @@
+19/09/2017 14:03:37 Warning: Invalid 'Per-function automatic transactions' setting value, fall back to the default: false
+Virtual User Script started at: 19/09/2017 14:03:38
+Starting action vuser_init.
+19/09/2017 14:03:38 vuser_init.c(4): Created new connection
+19/09/2017 14:03:38 vuser_init.c(7): Set Client ID to '<insert Client ID>'
+19/09/2017 14:03:38 vuser_init.c(8): Set credentials to <username placeholder> : ******
+19/09/2017 14:03:38 vuser_init.c(9): Set Last Will and Testament message
+19/09/2017 14:03:38 vuser_init.c(9): Message from '<topic>' with QoS=0 (retain):
+19/09/2017 14:03:38 vuser_init.c(9): ::: <sample lwt payload> :::
+19/09/2017 14:03:38 vuser_init.c(13): Set TLS certificate parameters: certificate path '<path to a certificate file, e.g. cert.pem>', private key path '<path to a private key file, e.g. key.pem>', password ******
+19/09/2017 14:03:38 vuser_init.c(14): Set TLS parameters to TLS1.2 : ALL
+19/09/2017 14:03:38 vuser_init.c(17): Connecting to tcp://127.0.0.1:1883
+19/09/2017 14:03:38 vuser_init.c(17): Connection successful
+19/09/2017 14:03:38 vuser_init.c(20): Subscribing to <topic>
+19/09/2017 14:03:38 vuser_init.c(20): Subscription successful
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+19/09/2017 14:03:38 Action.c(6): Wait for messages to arrive to the Inbox
+19/09/2017 14:03:38 Action.c(6): Inbox size: 1 messages
+19/09/2017 14:03:38 Action.c(11): Reading message from Inbox
+19/09/2017 14:03:38 Action.c(11): Message saved to cache, ID = 106095792
+19/09/2017 14:03:38 Action.c(11): Read Inbox successfully
+19/09/2017 14:03:38 Action.c(12): Retrieve payload of the message with ID = 106095792
+19/09/2017 14:03:38 Action.c(13): Retrieve topic of the message with ID = 106095792
+19/09/2017 14:03:38 Action.c(14): Retrieve payload length of the message with ID = 106095792
+received message with size 9 from <topic>
+payload <payload>
+19/09/2017 14:03:38 Action.c(19): Dispose message with ID = 106095792
+19/09/2017 14:03:38 Action.c(30): Publishing 9 bytes to <topic>
+19/09/2017 14:03:38 Action.c(30): Publishing successful
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+19/09/2017 14:03:38 vuser_end.c(4): Unsubscribing from <topic>
+19/09/2017 14:03:38 vuser_end.c(4): Unsubscription successful
+19/09/2017 14:03:38 vuser_end.c(7): Disconnecting from server
+19/09/2017 14:03:38 vuser_end.c(7): Disconnection successful
+Ending action vuser_end.
+Vuser Terminated.
