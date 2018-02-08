@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Cache-Control: no-store
+Pragma: no-cache
+Content-Length: 17928
+Content-Type: text/html; charset=utf-8
+Expires: Mon, 01 Jan 1990 12:00:00 GMT
+Server: Microsoft-IIS/7.5
+Date: Thu, 17 Nov 2016 05:47:55 GMT
+Proxy-Connection: Keep-Alive
+Connection: Keep-Alive
+Set-Cookie: WINGSession="icaScreenResolution#1920x1200~streamingClientDetected#~clientConnSecure#false~remoteClientDetected#Ica-Local%3dAuto%2cIncorrectZone~icoStatus#IsNotPassthrough"; path=/Citrix/XenApp/; HttpOnly
+Set-Cookie: WIUser="CTX_ForcedClient#Off~CTX_LaunchMethod#Ica-Local~CTX_AuthMethod#Explicit~CTX_ViewStyle#%7bApplications%3dIcons%7d"; expires=Fri, 17-Nov-2017 05:47:55 GMT; path=/Citrix/XenApp/; HttpOnly
+Set-Cookie: WINGDevice="CTX_DeviceId#WI_j1PxUmHWWCqhedgRZ"; expires=Fri, 17-Nov-2017 05:47:55 GMT; path=/Citrix/XenApp/; HttpOnly
+

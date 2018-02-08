@@ -1,0 +1,889 @@
+[API Trapper      ( 970: b30)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\iexplore.exe
+[API Trapper      ( 1f8: af4)] Recording in 64-bit mode: C:\Program Files (x86)\HP\LoadRunner\bin\mediator_x64.exe
+[API Trapper      ( 6d8: ad0)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      ( 96c: afc)] Recording in 32-bit mode: C:\Program Files (x86)\HP\LoadRunner\bin\mediator.exe
+[API Trapper      ( 8b0: e04)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer ( 8b0: 8a8)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 8b0: 8a8)] Load Network Traffic Analyzers:
+[Network Analyzer ( 8b0: 8a8)]     Analyzer Module: Citrix_ICA (value=GetCitrixProtocolAnalyzer:CitrixAnalyzer.dll)
+[Network Analyzer ( 8b0: 8a8)]     + Network Analyzer: CitrixAnalyzer.dll @ GetCitrixProtocolAnalyzer Loaded!
+[Network Analyzer ( 8b0: 8a8)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( 8b0: 8a8)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer ( 8b0: 8a8)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( 8b0: 8a8)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer ( 8b0: 8a8)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer ( 8b0: 8a8)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( 8b0: 8a8)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( 8b0: 8a8)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 8b0: f98)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 8b0: 8a8)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 8b0: 40c)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 8b0: 40c)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  1) Client -> Server @ : 414 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  1) Server -> Client : 1447 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/favicon.ico"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  1) Client -> Server @ : 387 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: 40c)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 8b0: 40c)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer ( 8b0: f98)]   (Sid:  1) Server -> Client : 1459 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/loading.htm"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  2) Client -> Server @ : 678 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer ( 8b0: f98)]   (Sid:  2) Server -> Client : 6307 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/media/Loader.gif"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  2) Client -> Server @ : 506 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: 8b4)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 8b0: 40c)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 8b0: e78)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 8b0: d28)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 8b0: f98)]   (Sid:  2) Server -> Client : 1105 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: ab0)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 8b0: 40c)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/media/HorizonBgBottom.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  2) Client -> Server @ : 515 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/media/LoginPaneTopLeftBorderGlow.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  3) Client -> Server @ : 526 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: 8b4)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/media/Devices.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  4) Client -> Server @ : 507 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: e78)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/media/LoginPaneCenterLeftBorderGlow.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  5) Client -> Server @ : 529 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: d28)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/media/LoginPaneTopRightBorderGlow.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  6) Client -> Server @ : 527 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: ab0)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer ( 8b0: f98)]   (Sid:  2) Server -> Client : 1365 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  3) Server -> Client : 785 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  4) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  5) Server -> Client : 527 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  6) Server -> Client : 875 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  4) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  4) Server -> Client : 5440 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/auth/silentDetection.aspx?compileonly=y"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  6) Client -> Server @ : 529 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/media/LoginPaneCenterRightBorderGlow.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  5) Client -> Server @ : 530 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/media/LoginPaneFooterLeftBorderGlow.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  3) Client -> Server @ : 529 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/media/LoginPaneFooterMidBorderGlow.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  2) Client -> Server @ : 528 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  4) Server -> Client : 8160 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/media/LoginPaneFooterRightBorderGlow.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  7) Client -> Server @ : 530 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: 640)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 8b0: c68)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 8b0: f98)]   (Sid:  5) Server -> Client : 527 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  3) Server -> Client : 1096 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  2) Server -> Client : 560 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  4) Server -> Client : 9520 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/media/HorizonBgTop.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  2) Client -> Server @ : 512 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/media/LoginPaneTopLeftGradient.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  3) Client -> Server @ : 524 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  7) Server -> Client : 1055 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/media/LoginPaneTopRightGradient.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  5) Client -> Server @ : 525 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: 640)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer ( 8b0: c70)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/media/LoginPaneTopMidBorderGlow.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  7) Client -> Server @ : 525 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: c68)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer ( 8b0: f98)]   (Sid:  4) Server -> Client : 14960 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  2) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  2) Server -> Client : 1127 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  3) Server -> Client : 942 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  5) Server -> Client : 875 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: c70)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer ( 8b0: f98)]   (Sid:  7) Server -> Client : 525 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  4) Server -> Client : 8160 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  4) Server -> Client : 16320 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  4) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  4) Server -> Client : 12618 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  6) Server -> Client : 614 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/silentDetection.aspx?compileonly=y"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  6) Client -> Server @ : 752 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/favicon.ico"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  4) Client -> Server @ : 439 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  6) Server -> Client : 180 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/auth/silentDetection.aspx"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  6) Client -> Server @ : 755 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  4) Server -> Client : 1459 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  6) Server -> Client : 512 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/silentDetection.aspx"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  6) Client -> Server @ : 926 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  6) Server -> Client : 4222 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  6) Server -> Client : 1575 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/html/styles/basicStyle.css"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  6) Client -> Server @ : 753 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer ( 8b0: f98)]   (Sid:  6) Server -> Client : 2074 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/silentDetection.aspx"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  6) Client -> Server @ : 1025 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  6) Server -> Client : 2862 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  6) Server -> Client : 9520 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  6) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  6) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  6) Server -> Client : 3614 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/Loader.gif"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  6) Client -> Server @ : 811 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneTopMidBorderGlow.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  7) Client -> Server @ : 830 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneTopLeftGradient.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  5) Client -> Server @ : 829 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/HorizonBgTop.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  2) Client -> Server @ : 817 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneCenterRightBorderGlow.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  3) Client -> Server @ : 835 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneCenterLeftBorderGlow.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Client -> Server @ : 834 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneTopRightBorderGlow.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  9) Client -> Server @ : 832 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  6) Server -> Client : 1106 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneTopLeftBorderGlow.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  6) Client -> Server @ : 831 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/Devices.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Client -> Server @ : 812 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  7) Server -> Client : 526 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  5) Server -> Client : 943 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/HorizonBgBottom.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  5) Client -> Server @ : 820 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  2) Server -> Client : 5208 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneTopRightGradient.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  7) Client -> Server @ : 830 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  3) Server -> Client : 528 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 528 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  9) Server -> Client : 876 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneFooterRightBorderGlow.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  2) Client -> Server @ : 835 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneFooterMidBorderGlow.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  3) Client -> Server @ : 833 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  5) Server -> Client : 1366 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  6) Server -> Client : 786 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  7) Server -> Client : 876 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneFooterLeftBorderGlow.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Client -> Server @ : 834 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 9520 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  2) Server -> Client : 1056 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  3) Server -> Client : 561 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: ab0)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: c70)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 8b0: 640)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 1097 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 8160 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: ab0)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer ( 8b0: c70)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer ( 8b0: 640)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 9520 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 6800 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 8160 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 16320 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 9520 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 9898 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Client -> Server @ : 1189 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "POST http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/clientDetectionOutputs.aspx"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Client -> Server @ : 136 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 1056 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/silentDetection.aspx"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Client -> Server @ : 1217 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 5022 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/silentDetection.aspx"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Client -> Server @ : 1029 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 5053 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/Loader.gif"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Client -> Server @ : 1021 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneFooterLeftBorderGlow.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Client -> Server @ : 1044 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/HorizonBgTop.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  3) Client -> Server @ : 1027 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneFooterMidBorderGlow.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  2) Client -> Server @ : 1043 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneCenterRightBorderGlow.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  5) Client -> Server @ : 1045 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneCenterLeftBorderGlow.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  7) Client -> Server @ : 1044 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneTopRightBorderGlow.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  6) Client -> Server @ : 1041 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneTopLeftBorderGlow.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  9) Client -> Server @ : 1041 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/Devices.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 11) Client -> Server @ : 1022 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/HorizonBgBottom.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 12) Client -> Server @ : 1030 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneTopRightGradient.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 13) Client -> Server @ : 1040 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 275 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 275 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneTopLeftGradient.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Client -> Server @ : 1039 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneTopMidBorderGlow.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Client -> Server @ : 1040 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  3) Server -> Client : 275 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneFooterRightBorderGlow.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  3) Client -> Server @ : 1045 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  2) Server -> Client : 275 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  5) Server -> Client : 275 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  6) Server -> Client : 274 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  7) Server -> Client : 275 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  9) Server -> Client : 275 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 11) Server -> Client : 275 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 12) Server -> Client : 275 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 13) Server -> Client : 275 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 275 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 275 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  3) Server -> Client : 275 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/login.aspx"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  3) Client -> Server @ : 1189 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  3) Server -> Client : 13742 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/style.aspx?cacheString=en++Normal++ywBx6S85sUw5jFW2vwYH6A++Qkv6IzH6bBuukZYNnE+gfB"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Client -> Server @ : 1062 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/javascript.aspx?cacheString=en++Normal++ywBx6S85sUw5jFW2vwYH6A++Qkv6IzH6bBuukZYNnE+gfB"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Client -> Server @ : 1067 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  3) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  3) Server -> Client : 2304 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/CitrixXenApp.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  3) Client -> Server @ : 913 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/CitrixWatermark.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 13) Client -> Server @ : 916 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/HDX.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 12) Client -> Server @ : 904 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  3) Server -> Client : 1198 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 13) Server -> Client : 1095 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 12) Server -> Client : 1621 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 2862 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 8160 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 318 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 14960 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 11014 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 88 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 136 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 2391 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/html/dummy.html"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Client -> Server @ : 1094 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/ButtonLeft.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Client -> Server @ : 911 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/ButtonRight.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 12) Client -> Server @ : 912 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 962 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 759 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 12) Server -> Client : 989 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/Error24.gif"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 12) Client -> Server @ : 908 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/IcaComboAll.ico"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Client -> Server @ : 808 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 12) Server -> Client : 1676 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 1443 bytes  (Service=HTTP)
+[Net An. Warning  ( 8b0: 8a8)] Request Connection: Remote Server @ 16.153.99.11:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10060)
+[Network Analyzer ( 6d8: b8c)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 6d8: b8c)] Load Network Traffic Analyzers:
+[Network Analyzer ( 6d8: b8c)]     Analyzer Module: Citrix_ICA (value=)
+[Network Analyzer ( 6d8: b8c)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( 6d8: b8c)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer ( 6d8: b8c)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( 6d8: b8c)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer ( 6d8: b8c)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer ( 6d8: b8c)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( 6d8: b8c)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( 6d8: b8c)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 6d8: e70)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 6d8: b8c)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 6d8: b8c)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      ( 6d8: e70)] "CONNECT iecvlist.microsoft.com:443"   
+[Network Analyzer ( 6d8: e70)]   (Sid:  1) Client -> Server @ : 235 bytes (Service=HTTP)
+[Network Analyzer ( 6d8: e70)]   (Sid:  1) Server -> Client : 39 bytes 
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/ButtonHoverRight.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Client -> Server @ : 917 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/ButtonHoverLeft.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 12) Client -> Server @ : 916 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 1031 bytes  (Service=HTTP)
+[Network Analyzer ( 6d8: dcc)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer ( 8b0: f98)]   (Sid: 12) Server -> Client : 763 bytes  (Service=HTTP)
+[Network Analyzer ( 6d8: dcc)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:AES128-SHA256)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Client -> Server @ : 1268 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "POST http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/login.aspx"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Client -> Server @ : 112 bytes (Service=HTTP)
+[Network Analyzer ( 6d8: cc8)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 6d8: cc8)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 1150 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/default.aspx"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Client -> Server @ : 1180 bytes (Service=HTTP)
+[Net An. Warning  ( 8b0: 8a8)] Request Connection: Remote Server @ 16.153.99.11:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10060)
+[Network Analyzer ( 6d8: cc8)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 6d8: cc8)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer ( 6d8: f88)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 6d8: f88)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer ( 6d8: e70)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer ( 6d8: b8c)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 6d8: b8c)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      ( 6d8: e70)] "CONNECT iecvlist.microsoft.com:443"   
+[Network Analyzer ( 6d8: e70)]   (Sid:  5) Client -> Server @ : 235 bytes (Service=HTTP)
+[Network Analyzer ( 6d8: e70)]   (Sid:  5) Server -> Client : 39 bytes 
+[Network Analyzer ( 6d8: a88)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES256-SHA)
+[Network Analyzer ( 6d8: a88)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:AES128-SHA256)
+[Web Request      ( 6d8: e70)] "GET /IE11/1387494476607/iecompatviewlist.xml"   
+[Network Analyzer ( 6d8: e70)]   (Sid:  5) Client -> Server @ : 780 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 6d8: e70)]   (Sid:  5) Server -> Client : 467 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 6d8: e70)]   (Sid:  5) Server -> Client : 16383 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 6d8: e70)]   (Sid:  5) Server -> Client : 1 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 6d8: e70)]   (Sid:  5) Server -> Client : 16383 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 6d8: e70)]   (Sid:  5) Server -> Client : 2538 bytes (SSL) (Service=HTTP)
+[Net An. Warning  ( 8b0: 8a8)] Request Connection: Remote Server @ 16.153.99.11:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10060)
+[Net An. Error    ( 8b0: 8a8)] Request Connection: Remote Server @ 16.153.99.11:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10060)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 1502 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/style.aspx?cacheString=en++Normal++ywBx6S85sUw5jFW2vwYH6A++Qkv6IzH6bBuukZYNnE+gfB"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 12) Client -> Server @ : 1045 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/javascript.aspx?cacheString=en++Normal++ywBx6S85sUw5jFW2vwYH6A++Qkv6IzH6bBuukZYNnE+gfB++authenticated"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Client -> Server @ : 1065 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 1360 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/CitrixLogoHeader.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  3) Client -> Server @ : 985 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 4080 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/DownArrow.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 13) Client -> Server @ : 978 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 1360 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/icons.aspx?size=normal&id=id2E5CDA09BC12566AF488FC3ADA43B4ABC59AF09F"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 11) Client -> Server @ : 1032 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/Transparent16.gif"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  9) Client -> Server @ : 982 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 8160 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 462 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  3) Server -> Client : 1632 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 13) Server -> Client : 504 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  9) Server -> Client : 348 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 11) Server -> Client : 2236 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 12) Server -> Client : 1502 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 12) Server -> Client : 9520 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 1502 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 12) Server -> Client : 1296 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 1640 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 12) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 12) Server -> Client : 11014 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/icons.aspx?size=normal&id=idADE2D816801FBE1F2C7BD722292412A9F853E402"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 12) Client -> Server @ : 1032 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/icons.aspx?size=normal&id=idB72DA02E44FF1064D5069C746390D6FCA29AF5F8"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Client -> Server @ : 1032 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/TrailBackground.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 11) Client -> Server @ : 984 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/GreyLine.gif"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 13) Client -> Server @ : 977 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/HeaderGradient.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  9) Client -> Server @ : 983 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/Search.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  3) Client -> Server @ : 975 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/TabRight.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  5) Client -> Server @ : 977 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/TabSelectedRight.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  7) Client -> Server @ : 985 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/Messages.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Client -> Server @ : 977 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/Settings.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  6) Client -> Server @ : 977 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/DropDownArrow.gif"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  2) Client -> Server @ : 982 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 12) Server -> Client : 2918 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 2338 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 11) Server -> Client : 426 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 13) Server -> Client : 1092 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  3) Server -> Client : 1240 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  5) Server -> Client : 876 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  9) Server -> Client : 1292 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LightboxTopLeft.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  5) Client -> Server @ : 984 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  7) Server -> Client : 1766 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/TabLeft.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Client -> Server @ : 976 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/HintBackgroundLeft.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  9) Client -> Server @ : 987 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 804 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/Logoff.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 11) Client -> Server @ : 975 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/TabSelectedLeft.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 12) Client -> Server @ : 984 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LightboxLeftBorder.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 13) Client -> Server @ : 987 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LightboxTopBorder.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  3) Client -> Server @ : 986 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  6) Server -> Client : 812 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LightboxTopRight.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Client -> Server @ : 985 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LightboxRightBorder.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  6) Client -> Server @ : 988 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/HintBackgroundRight.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  7) Client -> Server @ : 988 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  5) Server -> Client : 619 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 631 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  9) Server -> Client : 1552 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 11) Server -> Client : 588 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LightboxBottomLeft.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  5) Client -> Server @ : 987 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LightboxBottomBorder.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Client -> Server @ : 989 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/HintBackground.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  9) Client -> Server @ : 983 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 12) Server -> Client : 1564 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  3) Server -> Client : 435 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  6) Server -> Client : 496 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 643 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 13) Server -> Client : 493 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/icons.aspx?size=normal&id=idB5D9765E95FF675E0BA33F57465F6FEC342CE0EC"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  3) Client -> Server @ : 1032 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/icons.aspx?size=normal&id=idFECE132DFF23421C43AA76AAFA4BE7A41FAA6C54"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  6) Client -> Server @ : 1032 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  7) Server -> Client : 1555 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/CloseHint.gif"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Client -> Server @ : 978 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LightboxBottomRight.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 11) Client -> Server @ : 988 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/icons.aspx?size=normal&id=id5C6D3CD55C7A1A4F5460864A5903647420C6947A"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 12) Client -> Server @ : 1032 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LightboxCloseButton.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 13) Client -> Server @ : 988 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  5) Server -> Client : 722 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 507 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  9) Server -> Client : 1254 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/AlertIconLarge.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  7) Client -> Server @ : 983 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/html/dummy.html"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Client -> Server @ : 1248 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  3) Server -> Client : 1031 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  2) Server -> Client : 1107 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/html/dummy.html"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  5) Client -> Server @ : 1248 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  6) Server -> Client : 1031 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Server -> Client : 504 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 11) Server -> Client : 717 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 12) Server -> Client : 2910 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 13) Server -> Client : 1016 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  7) Server -> Client : 3091 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Server -> Client : 278 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  5) Server -> Client : 278 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/reconnect.aspx?CTX_LoginId=On&CTX_Token=7A89903DB83785841EF9C3A74297C506&ReconnectId=1479361731420"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  7) Client -> Server @ : 1250 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  7) Server -> Client : 1502 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  7) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  7) Server -> Client : 3772 bytes  (Service=HTTP)
+[Network Analyzer ( 6d8: e70)]   (Sid:  2) Connection Terminated (by Client)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/TabHoverLeft.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  7) Client -> Server @ : 981 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/TabHoverRight.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  5) Client -> Server @ : 982 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  7) Server -> Client : 1555 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  5) Server -> Client : 1755 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/default.aspx?CTX_CurrentTab=Desktops"   
+[Network Analyzer ( 8b0: f98)]   (Sid:  5) Client -> Server @ : 1188 bytes (Service=HTTP)
+[Network Analyzer ( 6d8: e70)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer ( 6d8: e70)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer ( 6d8: e70)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer ( 8b0: f98)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer ( 8b0: f98)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer ( 8b0: f98)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer ( 8b0: f98)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer ( 8b0: f98)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer ( 8b0: f98)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer ( 8b0: f98)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer ( 8b0: f98)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer ( 8b0: f98)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer ( 8b0: f98)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer ( 8b0: 640)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 8b0: 640)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid= 14)  PROXIED!
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/HoverGradient.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 14) Client -> Server @ : 982 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 14) Server -> Client : 3846 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid:  5) Connection Terminated (by Client)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/default.aspx?CTX_CurrentTab=Desktops"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 14) Client -> Server @ : 1188 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 14) Server -> Client : 2862 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 14) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 14) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 14) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 14) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 14) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 14) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 14) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 14) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 14) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 14) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 14) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: b04)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 8b0: b04)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer ( 8b0: f98)]   (Sid: 14) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 14) Server -> Client : 1360 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/DesktopInactive.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 15) Client -> Server @ : 1008 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 14) Server -> Client : 1307 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/html/dummy.html"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 14) Client -> Server @ : 1272 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f5c)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 8b0: f98)]   (Sid: 15) Server -> Client : 3026 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/html/dummy.html"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 15) Client -> Server @ : 1272 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 14) Server -> Client : 278 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/DesktopShadow.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 14) Client -> Server @ : 1006 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: 910)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 8b0: f5c)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer ( 8b0: f98)]   (Sid: 15) Server -> Client : 278 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 14) Server -> Client : 1124 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: 910)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid= 17)  PROXIED!
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/DesktopRollover.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 14) Client -> Server @ : 1008 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/DesktopReady.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 15) Client -> Server @ : 1005 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 15) Server -> Client : 941 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 14) Server -> Client : 1457 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/launch.ica?CTX_Application=Citrix.MPS.Desktop.Farm1.Desktop&CTX_Token=7A89903DB83785841EF9C3A74297C506&LaunchId=1479362010308"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 14) Client -> Server @ : 1304 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/DesktopActive.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 15) Client -> Server @ : 1006 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 15) Server -> Client : 8319 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 15) Server -> Client : 5106 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 14) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 14) Server -> Client : 945 bytes  (Service=HTTP)
+[Citrix Recorder  ( 900: 828)] CitrixClientImpl.dll version: 12.53.1203.0
+[Citrix Recorder  ( 900: 828)] Running Citrix processes:
+	concentr.exe, pid 3044, GDI handles in use: 22
+[Citrix Recorder  ( 900: 828)] Modifying ICA file with commands "ConnectionBar=0	TWIMode=Off": done with status 0 (SUCCESS).
+[Citrix Recorder  ( 900: 828)] ctrx_set_connect_opt("ICAFILE", "");
+[Citrix Recorder  ( 900: 828)] client resolution = 1920x1200, client color depth = 16 bits
+[Citrix Recorder  ( 900: 828)] Foreground window = 65582
+[Citrix Recorder  ( 900: 828)] Start notification arrived from the Agent, Agent version = "12.53.1203.0";
+[Citrix Recorder  ( 900: 828)] Start notification from the Agent is "Start12.53.1203.0DEP:0,CAPS:LOGOFF,Host:LABM3LT47";
+[Citrix Recorder  ( 900: 828)] Informational: DEP is "OFF" on the Citrix server;
+[Citrix Recorder  ( 900: 828)] Foreground window = 65672
+[Citrix Recorder  ( 900: 828)] ctrx_wait_for_event("LOGON");
+[Citrix Recorder  ( 900: 828)] ctrx_create_window "Shell_TrayWnd" flag=1 style=-1769734144 ext_style=392 id=65672
+[Citrix Recorder  ( 900: 828)] ctrx_create_window "Start" flag=1 style=-1811936256 ext_style=524424 id=65678
+[Citrix Recorder  ( 900: 828)] ctrx_create_window "Desktop" flag=0 style=-1778384896 ext_style=128 id=65818
+[Citrix Recorder  ( 900: 828)] Foreground window = 65818
+[Citrix Recorder  ( 900: 828)] Foreground window = 131416
+[Citrix Recorder  ( 900: 828)] Foreground window = 65980
+[Citrix Recorder  ( 900: 828)] Foreground window = 66102
+[Citrix Recorder  ( 900: 828)] ctrx_create_window "Server Manager" flag=0 style=349110272 ext_style=256 id=66102
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_window("Server Manager", 0, 0, 801, 557);
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_window("Start", 2, 560, 53, 39);
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_window("Server Manager", 0, 0, 801, 557);
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_window("Start", 2, 560, 53, 39);
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_window("Server Manager", 0, 0, 801, 557);
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_window("Start", 2, 560, 53, 39);
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_window("Server Manager", 0, 0, 801, 557);
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_window("Start", 2, 560, 53, 39);
+[Citrix Recorder  ( 900: 828)] creating an 80*80 rectangle on bitmap, with name regionSnapshot17, for object with description <class=MMCMainFrame  capture=p>;regionSnapshot17;
+[Citrix Recorder  ( 900: 828)] ctrx_obj_desc("<class=MMCMainFrame  capture=p>;regionSnapshot17");
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_down(1, 0, 190, 19, Server Manager=snapshot16);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 190, 19, Server Manager=snapshot16);
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_window("Server Manager", 0, 0, 801, 557);
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_window("Start", 2, 560, 53, 39);
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_window("Server Manager", 0, 0, 801, 557);
+[Citrix Recorder  ( 900: 828)] ctrx_obj_desc("<class=Button text=Start>");
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_down(1, 0, 17, 579, NULL=snapshot22);
+[Citrix Recorder  ( 900: 828)] ctrx_create_window "Start menu" flag=0 style=-1774190592 ext_style=392 id=65746
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_window("Start", 2, 560, 53, 39);
+[Citrix Recorder  ( 900: 828)] ctrx_create_window "Qatest1" flag=1 style=-1811939328 ext_style=524424 id=65754
+[Citrix Recorder  ( 900: 828)] Foreground window = 65746
+[Citrix Recorder  ( 900: 828)] ctrx_obj_desc("<class=Button text=Start>");
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_down(1, 0, 17, 579, NULL=snapshot24);
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_window("Start menu", 0, 92, 406, 465);
+[Citrix Recorder  ( 900: 828)] Foreground window = 65678
+[Citrix Recorder  ( 900: 828)] ctrx_delete_window "Qatest1" 
+[Citrix Recorder  ( 900: 828)] ctrx_delete_window "Start menu" 
+[Citrix Recorder  ( 900: 828)] ctrx_obj_desc("<class=Button text=Start>");
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_down(1, 0, 15, 19, Start=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 15, 19, Start=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_create_window "Start menu" flag=0 style=-1774190592 ext_style=392 id=65746
+[Citrix Recorder  ( 900: 828)] ctrx_create_window "Qatest1" flag=1 style=-1811939328 ext_style=524424 id=65754
+[Citrix Recorder  ( 900: 828)] Foreground window = 65746
+[Citrix Recorder  ( 900: 828)] ctrx_obj_desc("<class=Button text=Start>");
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_down(1, 0, 22, 580, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_obj_desc("<class=Button text=Start>");
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_down(1, 0, 22, 580, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_delete_window "Qatest1" 
+[Citrix Recorder  ( 900: 828)] ctrx_delete_window "Start menu" 
+[Citrix Recorder  ( 900: 828)] ctrx_obj_desc("<class=Button text=Start>");
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_down(1, 0, 22, 580, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 22, 580, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] Foreground window = 65678
+[Citrix Recorder  ( 900: 828)] ctrx_obj_desc("<class=Button text=Start>");
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_down(1, 0, 21, 16, Start=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 21, 16, Start=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_active_window("Server Manager");
+[Citrix Recorder  ( 900: 828)] Foreground window = 66102
+[Citrix Recorder  ( 900: 828)] ctrx_obj_desc("<class=Button text=Start>");
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_down(1, 0, 26, 568, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_create_window "Start menu" flag=0 style=-1774190592 ext_style=392 id=65746
+[Citrix Recorder  ( 900: 828)] ctrx_create_window "Qatest1" flag=1 style=-1811939328 ext_style=524424 id=65754
+[Citrix Recorder  ( 900: 828)] Foreground window = 65746
+[Citrix Recorder  ( 900: 828)] ctrx_obj_desc("<class=Button text=Start>");
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_down(1, 0, 26, 568, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] Foreground window = 65678
+[Citrix Recorder  ( 900: 828)] ctrx_delete_window "Qatest1" 
+[Citrix Recorder  ( 900: 828)] ctrx_delete_window "Start menu" 
+[Citrix Recorder  ( 900: 828)] ctrx_obj_desc("<class=Button text=Start>");
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_down(1, 0, 24, 8, Start=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 24, 8, Start=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_create_window "Start menu" flag=0 style=-1774190592 ext_style=392 id=65746
+[Citrix Recorder  ( 900: 828)] Foreground window = 65746
+[Citrix Recorder  ( 900: 828)] ctrx_create_window "Qatest1" flag=1 style=-1811939328 ext_style=524424 id=65754
+[Citrix Recorder  ( 900: 828)] ctrx_obj_desc("<class=Button text=Start>");
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_down(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_obj_desc("<class=Button text=Log off>");
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 17, 579, NULL=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_down(1, 0, 290, 444, Start menu=snapshot26);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 290, 444, Start menu=snapshot26);
+[Citrix Recorder  ( 900: 828)] Foreground window = 65678
+[Citrix Recorder  ( 900: 828)] ctrx_delete_window "Start menu" 
+[Citrix Recorder  ( 900: 828)] ctrx_delete_window "Qatest1" 
+[Citrix Recorder  ( 900: 828)] ctrx_active_window("Server Manager");
+[Citrix Recorder  ( 900: 828)] Foreground window = 66102
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_window("Server Manager", 0, 0, 801, 557);
+[Citrix Recorder  ( 900: 828)] ctrx_obj_desc("<class=tooltips_class32 >");
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_down(1, 0, 650, 474, Server Manager=snapshot28);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 650, 474, Server Manager=snapshot28);
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_window("Start", 2, 560, 53, 39);
+[Citrix Recorder  ( 900: 828)] ctrx_obj_desc("<class=Button text=Start>");
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_down(1, 0, 39, 575, NULL=snapshot30);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 39, 575, NULL=snapshot30);
+[Citrix Recorder  ( 900: 828)] Foreground window = 65746
+[Citrix Recorder  ( 900: 828)] ctrx_create_window "Qatest1" flag=1 style=-1811939328 ext_style=524424 id=65754
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_window("Server Manager", 0, 0, 801, 557);
+[Citrix Recorder  ( 900: 828)] ctrx_obj_desc("<class=Button text=Log off>");
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_down(1, 0, 299, 540, Server Manager=snapshot32);
+[Citrix Recorder  ( 900: 828)] ctrx_mouse_up(1, 0, 299, 540, Server Manager=snapshot32);
+[Citrix Recorder  ( 900: 828)] Foreground window = 65672
+[Citrix Recorder  ( 900: 828)] ctrx_delete_window "Qatest1" 
+[Citrix Recorder  ( 900: 828)] Foreground window = 0
+[Citrix Recorder  ( 900: 828)] ctrx_active_window("Microsoft Management Console");
+[Citrix Recorder  ( 900: 828)] Foreground window = 66102
+[Citrix Recorder  ( 900: 828)] Foreground window = 66178
+[Citrix Recorder  ( 900: 828)] ctrx_delete_window "Microsoft Management Console" 
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_obj_info("=snapshot32,2,2,0");
+[Citrix Recorder  ( 900: 828)] Foreground window = 0
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_obj_info("=snapshot32,46,46,0");
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_obj_info("=snapshot32,2,2,0");
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_obj_info("=snapshot32,2,2,0");
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_obj_info("=snapshot32,2,2,0");
+[Citrix Recorder  ( 900: 828)] Foreground window = 0
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_obj_info("=snapshot32,46,46,0");
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_obj_info("=snapshot32,2,2,0");
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_obj_info("=snapshot32,2,2,0");
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_obj_info("=snapshot32,2,2,0");
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_obj_info("=snapshot32,2,2,0");
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_obj_info("=snapshot32,2,2,0");
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_obj_info("=snapshot32,2,2,0");
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_obj_info("=snapshot32,134,134,0");
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_obj_info("=snapshot32,2,2,0");
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_obj_info("=snapshot32,2,2,0");
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_obj_info("=snapshot32,2,2,0");
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_obj_info("=snapshot32,134,134,0");
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_obj_info("=snapshot32,2,2,0");
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_obj_info("=snapshot32,2,2,0");
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_obj_info("=snapshot32,68,68,0");
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_obj_info("=snapshot32,2,2,0");
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_obj_info("=snapshot32,0,52,0");
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_obj_info("=snapshot32,2,2,0");
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_obj_info("=snapshot32,2,2,0");
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_obj_info("=snapshot32,2,2,0");
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_obj_info("=snapshot32,2,2,0");
+[Citrix Recorder  ( 900: 828)] Foreground window = 196676
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_obj_info("=snapshot32,112,112,0");
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_obj_info("=snapshot32,2,2,0");
+[Citrix Recorder  ( 900: 828)] ctrx_sync_on_obj_info("=snapshot32,2,2,0");
+[Citrix Recorder  ( 900: 828)] Foreground window = 65672
+[Citrix Recorder  ( 900: 828)] ctrx_delete_window "Desktop" 
+[Citrix Recorder  ( 900: 828)] Foreground window = 65838
+[Citrix Recorder  ( 900: 828)] ctrx_delete_window "Start" 
+[Citrix Recorder  ( 900: 828)] ctrx_delete_window "Shell_TrayWnd" 
+[Citrix Recorder  ( 900: 828)] ctrx_create_window "Windows Logon" flag=0 style=-1778384896 ext_style=0 id=66708
+[Citrix Recorder  ( 900: 828)] Foreground window = 66708
+[Citrix Recorder  ( 900: 828)] Foreground window = 0
+[Citrix Recorder  ( 900: 828)] ctrx_delete_window "Windows Logon" 
+[Citrix Recorder  ( 900: 828)] ctrx_logoff("CTRX_NORMAL_LOGOFF");
+[Network Analyzer ( 8b0: f98)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer ( 8b0: f98)]   (Sid: 15) Connection Terminated (by Client)
+[Network Analyzer ( 8b0: f98)]   (Sid: 16) Connection Terminated (by Client)
+[Network Analyzer ( 8b0: f98)]   (Sid: 17) Connection Terminated (by Client)
+[Network Analyzer ( 8b0: f34)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 8b0: df8)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 8b0: f34)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer ( 8b0: d24)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 8b0: f98)]   (Sid: 18) Connection Terminated (by Client)
+[Network Analyzer ( 8b0: d24)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid= 19)  PROXIED!
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/logout.aspx?CTX_Token=7A89903DB83785841EF9C3A74297C506"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 19) Client -> Server @ : 1230 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 19) Server -> Client : 1086 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/loggedout.aspx"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 19) Client -> Server @ : 1294 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 19) Server -> Client : 1502 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 19) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f34)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 8b0: f98)]   (Sid: 19) Server -> Client : 2092 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/CitrixXenAppLoggedoff.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 19) Client -> Server @ : 988 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: 73c)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 8b0: f34)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer ( 8b0: d24)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 8b0: f98)]   (Sid: 19) Server -> Client : 2489 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/CitrixLogoDarkLoggedOff.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 20) Client -> Server @ : 990 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/HDXLoggedOff.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 19) Client -> Server @ : 979 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: cc0)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 8b0: 5ec)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 8b0: 910)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 8b0: 29c)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 8b0: f34)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 8b0: f98)]   (Sid: 20) Server -> Client : 1064 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: 73c)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer ( 8b0: f98)]   (Sid: 19) Server -> Client : 1126 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/DevicesLoggedOff.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 20) Client -> Server @ : 983 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: 2e0)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Network Analyzer ( 8b0: d24)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer ( 8b0: f28)] Address lookup for VMLRSEL101 = 192.168.1.101
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/HorizonBgBottomLoggedOff.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 19) Client -> Server @ : 991 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/HorizonBgTopLoggedOff.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 21) Client -> Server @ : 988 bytes (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/html/dummy.html"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 22) Client -> Server @ : 1246 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f34)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid= 23)  PROXIED!
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/html/dummy.html"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 23) Client -> Server @ : 1246 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: 29c)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid= 24)  PROXIED!
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneFooterRightLoggedOff.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 24) Client -> Server @ : 996 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: 5ec)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid= 25)  PROXIED!
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneFooterLeftLoggedOff.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 25) Client -> Server @ : 995 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: 910)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer ( 8b0: f98)]   (Sid: 20) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: cc0)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid= 27)  PROXIED!
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneFooterMidLoggedOff.png"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 26) Client -> Server @ : 994 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: 2e0)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer ( 8b0: f98)]   (Sid: 19) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 19) Server -> Client : 1775 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 21) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 20) Server -> Client : 8160 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 22) Server -> Client : 278 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 23) Server -> Client : 278 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 24) Server -> Client : 1126 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 25) Server -> Client : 1157 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 26) Server -> Client : 562 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f28)] Request Connection: Remote Server @ 16.153.99.11:8080   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer ( 8b0: f98)]   (Sid: 20) Server -> Client : 9520 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 21) Server -> Client : 601 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 20) Server -> Client : 13600 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 20) Server -> Client : 3544 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/login.aspx?CTX_FromLoggedoutPage=1"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 20) Client -> Server @ : 1269 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 20) Server -> Client : 1502 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 20) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 20) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 20) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 20) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 20) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 20) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 20) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 20) Server -> Client : 2323 bytes  (Service=HTTP)
+[Web Request      ( 8b0: f98)] "GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/html/dummy.html"   
+[Network Analyzer ( 8b0: f98)]   (Sid: 20) Client -> Server @ : 1266 bytes (Service=HTTP)
+[Network Analyzer ( 8b0: f98)]   (Sid: 20) Server -> Client : 278 bytes  (Service=HTTP)

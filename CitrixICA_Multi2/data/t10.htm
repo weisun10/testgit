@@ -1,0 +1,684 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="ROBOTS" content="NOINDEX, NOFOLLOW, NOARCHIVE">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <title>Citrix XenApp - Applications</title>
+  <link rel="SHORTCUT ICON" href="../media/IcaComboAll.ico" type="image/vnd.microsoft.icon">
+  <link rel="stylesheet" type="text/css"  media="handheld,all" href="style.aspx?cacheString=en++Normal++ywBx6S85sUw5jFW2vwYH6A++Qkv6IzH6bBuukZYNnE+gfB" >
+    <script type="text/javascript" src="javascript.aspx?cacheString=en++Normal++ywBx6S85sUw5jFW2vwYH6A++Qkv6IzH6bBuukZYNnE+gfB++authenticated"></script>
+  <script type="text/javascript">
+    <!--
+    // Ensure every page has an onLoadLayout function. If a page defines its own
+    // onLoadLayout function, it will override this one.
+    function onLoadLayout() {
+      return;
+    }
+    function getFrameSuffix() {
+      return "WI_zUuMo1r_i1nO1t9o_";
+    }
+    function getSessionToken() {
+      return "7A89903DB83785841EF9C3A74297C506";
+    }
+    // -->
+  </script>
+  <script type="text/javascript">
+      <!--
+      
+      function doAutoLaunching() {
+        
+        
+      }
+      
+function redirectToSearchResults() {
+    var searchTextbox = document.getElementById('searchEntry');
+    var searchText;
+
+    if (searchTextbox.className == "searchInactive") {
+        return;
+    } else if (searchTextbox.hasFocus) {
+        searchText = searchTextbox.value;
+    } else {
+        searchText = currentSearchQuery;
+    }
+    window.location.href = "searchResults.aspx?CTX_SearchString=" + encodeURIComponent(searchText);
+}
+
+
+var currentSearchQuery = "";
+
+
+function isSearchPageSelected()
+{
+    return false;
+}
+
+
+function setupSearchBox()
+{
+    var searchTextbox = document.getElementById('searchEntry');
+    if (searchTextbox) {
+        if(isSearchPageSelected())
+        {
+            searchTextbox.focus();
+            searchTextbox.value = currentSearchQuery;
+            searchTextbox.select();
+        }
+    }
+}
+
+
+function searchTextFocus(searchTextbox) {
+    searchTextbox.hasFocus = true;
+    searchTextbox.value = currentSearchQuery;
+    searchTextbox.select();
+    updateSearchStyle(true);
+}
+
+
+function updateSearchStyle(isActive) {
+    var searchField = document.getElementById("searchEntry");
+    if (searchField) {
+        if (isActive) {
+            searchField.className = "";
+         } else {
+            // Only restore the default string "Search" when the input field is empty
+            var currentValue = searchField.value;
+
+            if (currentValue == "") {
+                searchField.value = "Search";
+                searchField.className = "searchInactive";
+            }
+        }
+    }
+}
+
+
+
+function onLoadLayout()
+{
+    maintainAccessibility("SearchButton", true);
+    setupTreeView();
+    setupSearchBox();
+    setFocusIfViewChanged();
+}
+
+function setFocusIfViewChanged()
+{
+    if (window.location.href.indexOf("CTX_CurrentViewStyle=") != -1)
+    {
+        var el = document.getElementById("viewButton");
+        if (el != null)
+        {
+            el.focus();
+        }
+    }
+}
+
+
+var treeViewCurrentFolder = "";
+
+
+function changeView(viewName)
+{
+    var newpage = "default.aspx?CTX_CurrentViewStyle=" + viewName;
+    if (isTreeView()) {
+        newpage += "&CTX_CurrentFolder=" + encodeURIComponent(getTreeViewCurrentFolder());
+        
+        setItemInCookie("treeViewCurrentFolder", null);
+    }
+    location.href = newpage;
+}
+
+
+function setupTreeView()
+{
+    if (isTreeView()) {
+        
+        retrieveImage(document.getElementById('treeView'));
+        expandTreeViewInitialFolder();
+    }
+}
+
+
+function toggleTreeNode(node)
+{
+    var nodeClass = node.className;
+    if(nodeClass == "folderClose"){
+        openFolder(node);
+        setTreeViewCurrentFolder(node, false);
+    } else {
+        closeFolder(node);
+        setTreeViewCurrentFolder(node, true);
+    }
+    updateLayout(); 
+}
+
+
+function openFolder(node) {
+    node.className = "folderOpen";
+    node.nextSibling.style.display='block';
+    retrieveImage(node.nextSibling);
+    changeSrcOfChildImgNodes(node, "../media/FolderOpenArrowDown.gif");
+}
+
+
+function closeFolder(node) {
+    node.className = "folderClose";
+    node.nextSibling.style.display='none';
+    changeSrcOfChildImgNodes(node, "../media/FolderClosedArrow.gif");
+}
+
+
+function updateMouseoverTreeNodePicture(node) {
+    var nodeClass = node.className;
+    if(nodeClass == "folderClose"){
+        changeSrcOfChildImgNodes(node, "../media/FolderClosedArrowHover.gif");
+    } else {
+        changeSrcOfChildImgNodes(node, "../media/FolderOpenArrowDownHover.gif");
+    }
+}
+
+
+function updateMouseoutTreeNodePicture(node) {
+    var nodeClass = node.className;
+    if(nodeClass == "folderClose"){
+        changeSrcOfChildImgNodes(node, "../media/FolderClosedArrow.gif");
+    } else {
+        changeSrcOfChildImgNodes(node, "../media/FolderOpenArrowDown.gif");
+    }
+}
+
+
+function changeSrcOfChildImgNodes(node, url) {
+    for (var j = 0; j < node.childNodes.length; j++) {
+          var child = node.childNodes[j];
+          // if it is an image tag, put the closed image in
+          if (child.nodeName == "IMG") {
+              child.src = url;
+              break;
+          }
+     }
+}
+
+
+function retrieveImage(selectedFolder)
+{
+    for (var i = 0; i <selectedFolder.childNodes.length; i++) {
+        var item = selectedFolder.childNodes[i];
+        // Iterate through all leaf (i.e., non-folder) <li> nodes and patch up the src attribute in all descendant images.
+        if (item.nodeName == "LI" && item.className != "folder") { //found a list item here
+            var images = item.getElementsByTagName("IMG");
+            for (var j = 0; j < images.length; j++) {
+                if (images[j].name != null && images[j].className != "spinner") {
+                    images[j].src = images[j].name;
+                    break;
+                }
+            }
+        }
+    }
+}
+
+
+function expandTreeViewInitialFolder()
+{
+    var currentFolderValue = getTreeViewCurrentFolder();
+    var rootNode = document.getElementById("treeView");
+    if ((currentFolderValue != null) && (currentFolderValue != "")) {
+        expandTreeView(rootNode, currentFolderValue);
+    }
+}
+
+
+function expandTreeView(ulElement, path)
+{
+    if (path.indexOf("\\") == 0) { // remove the leading "\" from the path
+        path = path.substring(1);
+    }
+
+    var value;
+    if (path.indexOf("\\") > 0) { // gets the folder name
+        value = path.substring(0, path.indexOf("\\"));
+    } else {
+        value = path;
+    }
+
+    if (value == "") { // just return if there are no folder components left
+        return;
+    }
+
+    for (var i = 0; i <ulElement.childNodes.length; i++) {
+        var item = ulElement.childNodes[i];
+        if (item.nodeName == "LI") { // found a list item here
+            for (var j = 0; j <item.childNodes.length; j++) {
+                 var liChildNode = item.childNodes[j];
+                 // If the list item is followed by an <a> tag and a <ul> tag
+                 // then we know that the first child of the list item is the folder name.
+                 if (liChildNode.nodeName == "A" && (liChildNode.nextSibling != null && liChildNode.nextSibling.nodeName == "UL")) {
+                     // Check if the folder name matches
+                     if (findFolderName(liChildNode) == value) {
+                         openFolder(liChildNode);
+                         path = path.substring(path.indexOf("\\"));
+                         expandTreeView(liChildNode.nextSibling, path);
+                     }
+                 }
+             }
+        }
+    }
+}
+
+function setTreeViewCurrentFolder(node, isCollapsed)
+{
+      var currentFolder = findFolderName(node);
+      var currentNode = node.parentNode.parentNode.parentNode;
+      while(currentNode.nodeName == "LI" ) {
+         for (var j = 0; j <currentNode.childNodes.length; j++) {
+              var liChildNode = currentNode.childNodes[j];
+              // If the list item is followed by an <a> tag and a <ul> tag
+              // then we know that the first child of the list item is the folder name.
+              if (liChildNode.nodeName == "A" && (liChildNode.nextSibling != null && liChildNode.nextSibling.nodeName == "UL")) {
+                  currentFolder = findFolderName(liChildNode)+"\\"+currentFolder;
+              }
+         }
+         currentNode = currentNode.parentNode.parentNode;
+      }
+
+      if (currentFolder != "" && isCollapsed) {
+          
+          var index = currentFolder.lastIndexOf("\\");
+          if(index == -1) {
+            currentFolder = "\\";
+          } else {
+            currentFolder = currentFolder.substring(0, index);
+          }
+      }
+      setItemInCookie("treeViewCurrentFolder", currentFolder);
+}
+
+
+function findFolderName(node) {
+    var currentFolder = null;
+    for (var j = 0; j < node.childNodes.length; j++) {
+      var child = node.childNodes[j];
+      // if it a text node (i.e. not the image node)
+      // it should be the name of the folder
+      if (child.nodeType == 3) {
+          currentFolder = child.nodeValue;
+          break;
+      }
+    }
+    return currentFolder;
+}
+
+
+function isTreeView()
+{
+    return document.getElementById('treeView') != null;
+}
+
+
+function getTreeViewCurrentFolder() {
+   
+    var currentFolderValue = getItemFromCookie("treeViewCurrentFolder");
+    if (currentFolderValue == null || currentFolderValue == "") {
+        currentFolderValue = "";
+    }
+    return currentFolderValue;
+}
+
+function setItemInCookie(name, value) {
+    if (value == null) {
+        value = "";
+    }
+    if ((name == null) || (name == "")) {
+        return;
+    }
+
+    var newCookie = "";
+    var oldCookie = getCookie("WIClientInfo");
+    if (oldCookie != "") {
+        var cookieItems = oldCookie.split("~");
+        for (i=0; i < cookieItems.length; i++) {
+            // The name of the item will be escaped so we need to make sure
+            // that we search for the escaped version.
+            if (cookieItems[i].indexOf(escape(name) + "#") != 0) {
+                newCookie += cookieItems[i] + "~";
+            }
+        }
+    }
+
+    newCookie += escape(name) + "#" + escape(value);
+    storeCookie("WIClientInfo", newCookie);
+}
+
+
+function getItemFromCookie(name) {
+    return unescape(getValueFromString(escape(name), getCookie("WIClientInfo"), "#", "~"));
+}
+
+
+function storeCookie(name, value) {
+    if (value) { // non-null, non-empty
+        value = "\"" + value + "\"";
+    } else {
+        value = "";
+    }
+
+    if (window.location.protocol.toLowerCase() == "https:") {
+        value += "; secure";
+    }
+
+    var cookie = name + "=" + value;
+
+    cookie = cookie + "; path=/Citrix/XenApp/site/";
+
+    document.cookie = cookie;
+}
+
+
+function getCookie(name) {
+    var cookie = getValueFromString(name, document.cookie, "=", ";");
+    if ( (cookie.charAt(0) == "\"") && (cookie.charAt(cookie.length-1) == "\"") ) {
+        cookie = cookie.substring(1, cookie.length-1);
+    }
+    return cookie;
+}
+
+function getValueFromString(name, str, sep1, sep2) {
+    var result = "";
+
+    if (str != null) {
+        var itemStart = str.indexOf(name + sep1);
+        if (itemStart != -1) {
+            var valueStart = itemStart + name.length + 1;
+            var valueEnd = str.indexOf(sep2, valueStart);
+            if (valueEnd == -1) {
+                valueEnd = str.length;
+            }
+            result = str.substring(valueStart, valueEnd);
+        }
+    }
+
+    return result;
+}
+
+      // -->
+  </script>
+
+  
+</head>
+
+
+
+<body  onLoad="putInTopFrame();resetSessionTimeout();doAutoLaunching();onLoadLayout();setup_popup_behaviour();updateLayout();configureLightbox();" dir="ltr">
+
+
+  <div id="overallWrapper" >
+
+      <div id="pageContent"  class='hideBox' >
+        
+<div id="headerWrapper">
+  <div id="header">
+    <table id="headerLeft" cellspacing="0">
+      <tr>
+
+        <td id="searchCell">
+         <form action="javascript:redirectToSearchResults()" >
+           <div id="searchContainer"> 
+             <input type="text" maxlength="60" title="Search for applications, content, and desktops" id="searchEntry" class="searchInactive" value="Search"
+                   onfocus="searchTextFocus(this);" onblur="updateSearchStyle(false);"><a id="searchLink" href="javascript:redirectToSearchResults();" tabIndex="-1"></a>
+               
+             <input id="highContrast_SearchButton" type="button"
+                     onClick="javascript:redirectToSearchResults()"
+                     title="Search for applications, content, and desktops"
+                     value='Search'>
+           </div>
+         </form>
+        </td>
+
+        <td>
+          <span id="username" ><strong>
+            Logged on as: Qatest1
+          </strong></span>
+        </td>
+
+
+        <td>
+          <table id="headerRight" cellspacing="0">
+            <tr>
+
+              <td >
+                <a id="messagesLink" class="navLink" href="messageScreen.aspx"><span>Messages</span></a>
+              </td>
+
+              <td >
+                <a id="settingsLink" class="navLink" href="preferences.aspx"><span>Settings</span></a>
+              </td>
+
+
+              <td>
+
+              <a id="wscLink" class="navLink DropDownMenu" href="javascript:location.replace('../site/logout.aspx?CTX_Token=7A89903DB83785841EF9C3A74297C506')"
+                ><span>Log Off</span></a>
+
+              </td>
+
+              <td>
+                <img id="headerLogo" src="../media/CitrixLogoHeader.png" alt="Page header" title="">
+              </td>
+
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+
+
+
+
+<div id="Popup_wscLink" class="wiPopup dropDownMenu">
+
+
+    <a id="logoutAreaReconnectLink"
+        href="reconnect.aspx?CTX_Token=7A89903DB83785841EF9C3A74297C506" target="reconnectFrameWI_zUuMo1r_i1nO1t9o_"
+        OnClick="addCurrentTimeToHref(this, 'reconnect.aspx?CTX_Token=7A89903DB83785841EF9C3A74297C506', 'ReconnectId');" 
+        title="Click here to resume your paused resources"
+    >Reconnect</a>
+
+    <a id="logoutAreaDisconnectLink"
+        href="javascript:location.replace('disconnect.aspx?CTX_Token=7A89903DB83785841EF9C3A74297C506')"
+        title="Click here to pause your resources and log off from the Web site"
+    >Disconnect</a>
+
+
+</div>
+
+
+        
+    <div class="spacer"></div>
+
+    <div id="navBarWrapper">
+        <div id="navBar">
+            <ul>
+                <li id="Applications" class="otherTab">
+  <div class="leftDoor">
+    <div class="rightDoor">
+      <a id="Applications_Text" class="tabText" href="default.aspx?CTX_CurrentTab=Applications"><span>Applications</span></a>
+    </div>
+  </div>
+</li>
+
+                <li id="Desktops" class="selectedTab">
+  <div class="leftDoor">
+    <div class="rightDoor">
+      <a id="Desktops_Text" class="tabText" ><span>Desktops</span></a>
+    </div>
+  </div>
+</li>
+
+                
+            </ul>
+        <div class="spacer"></div>
+      </div>
+    </div>
+
+        <div class="spacer"></div>
+
+  <div class="mainPane" id="appMainPane">
+    <div id="mainTopPane">
+        
+    <div id="feedbackArea" class="noFeedback"><!-- --></div>
+
+        
+    <div id="welcomeMessage"><!-- --></div>
+
+    </div> 
+<div class="mainContainer">
+     <div class="selectedTabContent" id="selectedTabContent">
+
+
+<div class="displayTools"> 
+<table id="displayToolsTable"><tr>
+  <td id="displayToolsMainCell">
+<span class="breadcrumb lastBreadcrumb">Main</span>
+
+  </td>
+  <td id="displayToolsViewCell">
+
+
+    <div class="customButton hiddenElement">
+	  <a id="hiddenButton" class="leftDoor" href="#"><span class="rightDoor"></span></a>
+    </div>
+
+  </td>
+
+</tr></table>
+
+</div>
+
+<script type="text/javascript">
+   // clear all the elements in the array before we render the page.
+   delayedLaunchDesktops = [];
+</script>
+<div class="desktopView">
+    <div id='desktop_idCitrix.MPS.Desktop.Farm1.Desktop' class='desktopResource'  onmouseout='updateDesktopDisplay(this, false);' onmouseover='updateDesktopDisplay(this, true)'><div class='desktopName'><a href="launcher.aspx?CTX_Application=Citrix.MPS.Desktop.Farm1.Desktop&amp;CTX_Token=7A89903DB83785841EF9C3A74297C506" onClick="resetSessionTimeout();clearFeedback();addCurrentTimeToHref(this,'launcher.aspx?CTX_Application=Citrix.MPS.Desktop.Farm1.Desktop&amp;CTX_Token=7A89903DB83785841EF9C3A74297C506','LaunchId');launch(this);return false;" onMouseDown=" addCurrentTimeToHref(this,'launcher.aspx?CTX_Application=Citrix.MPS.Desktop.Farm1.Desktop&amp;CTX_Token=7A89903DB83785841EF9C3A74297C506','LaunchId');" id='idCitrix.MPS.Desktop.Farm1.Desktop' name='Desktop' class='iconLink' title='Desktop'>Desktop  </a></div><div class='desktopScreenContainer'><a href="launcher.aspx?CTX_Application=Citrix.MPS.Desktop.Farm1.Desktop&amp;CTX_Token=7A89903DB83785841EF9C3A74297C506" onClick="resetSessionTimeout();clearFeedback();addCurrentTimeToHref(this,'launcher.aspx?CTX_Application=Citrix.MPS.Desktop.Farm1.Desktop&amp;CTX_Token=7A89903DB83785841EF9C3A74297C506','LaunchId');launch(this);return false;" onMouseDown=" addCurrentTimeToHref(this,'launcher.aspx?CTX_Application=Citrix.MPS.Desktop.Farm1.Desktop&amp;CTX_Token=7A89903DB83785841EF9C3A74297C506','LaunchId');" id='idCitrix.MPS.Desktop.Farm1.Desktop' name='Desktop' class='iconLink' title='Desktop'>     <div class='desktopScreen' id='screen_idCitrix.MPS.Desktop.Farm1.Desktop'>       <span style='display:none'>Desktop</span><div class='delayedImageNone'  id='desktopSpinner_idCitrix.MPS.Desktop.Farm1.Desktop'><!-- --></div>     </div>  </a></div><div class='restartLinkNotRestartable' id='restart_idCitrix.MPS.Desktop.Farm1.Desktop'><!-- --></div></div>
+</div>
+
+
+<div class="spacer"></div>
+
+
+
+
+
+  </div> 
+  <div id="hintAreaLeft">
+    <div id="hintAreaRight">
+      <div id="hintArea">
+        <table cellspacing="0" cellpadding="0">
+          <tr>
+          <td>
+          <p>
+         Hint: Unable to find the resource you need? Use Search to locate it for you.
+           </p>
+          </td>
+          
+          <td>
+          <p>
+           <a title='Close hints area'  onmouseover="changeCloseImage(this, true);" onmouseout="changeCloseImage(this, false);"
+              id="closeHintsLink" href="default.aspx?CTX_CloseHintsArea=CloseHintsArea"
+              ><img alt='Close hints area' src="../media/CloseHint.gif"></a>
+          </p>
+          </td>
+          
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+</div> 
+
+    <div class="spacer"></div>
+  </div> 
+<div id="sysMessage">
+
+     <!-- -->
+ 
+</div>
+  </div> 
+          <div id="heightFiller"><!-- --></div>
+          
+<div id="footer">
+  <a href="http://www.citrix.com"
+    ><img src="../media/CitrixWatermark.png" alt="Application virtualization" title=""></a>
+  <a href="http://hdx.citrix.com"
+    ><img id="hdxLogo" src="../media/HDX.png" alt="HDX - High Definition User Experience" title=""></a>
+
+</div>
+
+
+  </div> 
+    <div class="HiddenDiv" id="launchDiv"><!-- --></div>
+    <iframe width="0" height="0" class="HiddenIframe" id="reconnectFrameWI_zUuMo1r_i1nO1t9o_" name="reconnectFrameWI_zUuMo1r_i1nO1t9o_"title="The hidden frame for the session reconnection functionality" src="../html/dummy.html"></iframe>
+    <div class="HiddenDiv" id="retryPopulatorDiv"><!-- the retry iframe is added here by the addDesktopRetryFrame script if there are delayed desktop launches in progress --></div>
+
+    <iframe width="0" height="0" class="HiddenIframe" id="timeoutFrameWI_zUuMo1r_i1nO1t9o_" name="timeoutFrameWI_zUuMo1r_i1nO1t9o_" title="The hidden frame for the session timeout functionality" src="../html/dummy.html"></iframe>
+
+<div id="lightbox">
+  <table class="lightBox" cellpadding="0" cellspacing="0" align="center">
+    <tr>
+      <td class="lightBoxTop lightBoxLeft lightBoxTopLeft"></td>
+      <td class="lightBoxTop lightBoxTopMid">
+        <p id="lightboxTitle">Warning</p>
+        <a href="javascript:hideLightbox(false);"
+           tabIndex="3"><img id="closeButton" src="../media/LightboxCloseButton.png" alt="" /></a>
+      </td>
+      <td class="lightBoxTop lightBoxRight lightBoxTopRight"></td>
+    </tr>
+    <tr>
+      <td class="lightBoxLeft lightBoxMidLeft"></td>
+      <td class="lightBoxMid">
+        <img id="logo" width="48" height="48" src="../media/AlertIconLarge.png" alt="">
+        <div id="lightboxText">
+          <div id="lightboxHeading">Do you want to restart "{0}"?</div>
+          <p id="lightboxMessage">Restarting your virtual desktop may solve the problem; however, you will lose any unsaved work.</p>
+        </div>
+      </td>
+      <td class="lightBoxRight lightBoxMidRight"></td>
+    </tr>
+    <tr>
+      <td class="lightBoxFooter lightBoxLeft lightBoxFooterLeft"></td>
+      <td class="lightBoxFooter lightBoxFooterMid">
+        <div id="cancelButtonPane" class="lightboxButtonPane">
+          <div class="customButton">
+            <a href="javascript:hideLightbox(false);"
+               class="leftDoor"
+               tabIndex="2"><span class="rightDoor">Cancel</span></a>
+          </div> 
+        </div>
+        <div id="okButtonPane" class="lightboxButtonPane">
+          <div class="customButton">
+            <a href="javascript:hideLightbox(true);"
+               class="leftDoor"
+               tabIndex="1"
+               ><span class="rightDoor">Restart</span></a>
+           </div>
+        </div></td>
+      <td class="lightBoxFooter lightBoxRight lightBoxFooterRight"></td>
+    </tr>
+  </table>
+</div>
+
+<div id="lightboxMask"></div>
+
+
+</body>
+</html>
+

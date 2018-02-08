@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\appsadmin\Documents\VuGen\Scripts\CitrixICA_Multi2
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ec:\users\appsadmin\documents\vugen\scripts\citrixica_multi2\\logfile.log
+c:\users\appsadmin\documents\vugen\scripts\citrixica_multi2\\combined_CitrixICA_Multi2.c
+c:\users\appsadmin\documents\vugen\scripts\citrixica_multi2\\pre_cci.c

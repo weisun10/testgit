@@ -1,0 +1,104 @@
+﻿/*
+ * basicStyle.css
+ * Copyright (c) 2007 - 2010 Citrix Systems, Inc. All Rights Reserved.
+ */
+html, noscript {
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+}
+
+noscript {
+    display: block;
+}
+
+body {
+    color: #2C2D31;
+    background: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: Segoe UI, Tahoma,Verdana, Helvetica, Arial, sans-serif;
+    font-size: 70%;
+}
+
+img, h4 {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+p {
+    margin: 7px 0;
+}
+
+#overallWrapper {
+    margin: 0px auto;
+}
+
+#headerWrapper {
+    background: url("../../media/HeaderGradient.png") repeat-x scroll left top #6C7A86;
+    width: 100%;
+}
+
+#header {
+    width: 900px;
+    margin: 0 auto;
+    background: url("../../media/HeaderGradient.png") repeat-x scroll left top #6C7A86;
+}
+
+#header img {
+    float: right;
+    padding: 11px 0 11px;
+}
+
+#headerLeft {
+    width: 100%;
+}
+
+#headerRight {
+    margin-left: auto;
+}
+
+.mainPane {
+    width: 900px;
+    margin: 0 auto;
+    padding: 18px 0;
+}
+
+#welcome {
+/*
+  background: url("../../media/TrailBackground.png") repeat-x scroll left top transparent;
+  border-top: 1px solid #CCCCCC;
+  border-left: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+*/
+}
+
+#welcome h4 {
+  font-size: 160%;
+  font-weight: normal;
+  padding: 8px;
+  padding: 5px 0px 3px;
+}
+
+/*
+#welcome h4.error {
+  padding-left: 30px;
+  background: url("../../media/Error16.png") no-repeat 7px 7px;
+}
+
+#welcome h4.warning {
+  padding-left: 30px;
+  background: url("../../media/WarningAlert.png") no-repeat 7px 7px;
+}
+*/
+
+#commonBox {
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    padding: 0 0 80px 20px;
+}
+
+.spacer {
+    clear: both;
+}

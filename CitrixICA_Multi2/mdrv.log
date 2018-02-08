@@ -1,0 +1,342 @@
+Virtual User Script started at : 11/18/2016 2:22:50 PM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 2  	[MsgId: MMSG-26989]
+18/11/2016 14:22:50 (1592:3344) - New Iteration started
+Starting action Action.
+Action.c(4): web_url("xenapp") started  	[MsgId: MMSG-26355]
+Action.c(4): web_url("xenapp") was successful, 1158 body bytes, 291 header bytes  	[MsgId: MMSG-26386]
+Action.c(13): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(13): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(15): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(15): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(17): web_url("loading.htm") started  	[MsgId: MMSG-26355]
+Action.c(17): Found resource "http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/media/Loader.gif" in HTML "http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/loading.htm"  	[MsgId: MMSG-26659]
+Action.c(17): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/media/HorizonBgBottom.png" (specified by argument number 9)  	[MsgId: MMSG-26577]
+Action.c(17): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/media/LoginPaneTopLeftBorderGlow.png" (specified by argument number 11)  	[MsgId: MMSG-26577]
+Action.c(17): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/media/Devices.png" (specified by argument number 13)  	[MsgId: MMSG-26577]
+Action.c(17): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/media/LoginPaneCenterLeftBorderGlow.png" (specified by argument number 15)  	[MsgId: MMSG-26577]
+Action.c(17): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/media/LoginPaneTopRightBorderGlow.png" (specified by argument number 17)  	[MsgId: MMSG-26577]
+Action.c(17): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/media/LoginPaneCenterRightBorderGlow.png" (specified by argument number 19)  	[MsgId: MMSG-26577]
+Action.c(17): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/media/LoginPaneFooterLeftBorderGlow.png" (specified by argument number 21)  	[MsgId: MMSG-26577]
+Action.c(17): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/media/LoginPaneFooterMidBorderGlow.png" (specified by argument number 23)  	[MsgId: MMSG-26577]
+Action.c(17): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/media/LoginPaneFooterRightBorderGlow.png" (specified by argument number 25)  	[MsgId: MMSG-26577]
+Action.c(17): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/media/HorizonBgTop.png" (specified by argument number 27)  	[MsgId: MMSG-26577]
+Action.c(17): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/media/LoginPaneTopLeftGradient.png" (specified by argument number 29)  	[MsgId: MMSG-26577]
+Action.c(17): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/media/LoginPaneTopRightGradient.png" (specified by argument number 31)  	[MsgId: MMSG-26577]
+Action.c(17): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/media/LoginPaneTopMidBorderGlow.png" (specified by argument number 33)  	[MsgId: MMSG-26577]
+Action.c(17): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/silentDetection.aspx?compileonly=y" (specified by argument number 35)  	[MsgId: MMSG-26577]
+Action.c(17): web_url("loading.htm") was successful, 103484 body bytes, 4608 header bytes  	[MsgId: MMSG-26386]
+Action.c(43): web_url("silentDetection.aspx") started  	[MsgId: MMSG-26355]
+Action.c(43): Redirecting "http://labm3lt47.hpswlabs.adapps.hp.com/citrix/xenapp/auth/silentDetection.aspx" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(43): To location "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/silentDetection.aspx"  	[MsgId: MMSG-26693]
+Action.c(43): Found resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/html/styles/basicStyle.css" in HTML "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/silentDetection.aspx"  	[MsgId: MMSG-26659]
+Action.c(43): web_url("silentDetection.aspx") was successful, 7159 body bytes, 1225 header bytes  	[MsgId: MMSG-26386]
+Action.c(52): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(52): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(60): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(60): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(69): web_url("silentDetection.aspx_2") started  	[MsgId: MMSG-26355]
+Action.c(69): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneTopMidBorderGlow.png" (specified by argument number 9)  	[MsgId: MMSG-26577]
+Action.c(69): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneTopLeftGradient.png" (specified by argument number 11)  	[MsgId: MMSG-26577]
+Action.c(69): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/HorizonBgTop.png" (specified by argument number 13)  	[MsgId: MMSG-26577]
+Action.c(69): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneCenterRightBorderGlow.png" (specified by argument number 15)  	[MsgId: MMSG-26577]
+Action.c(69): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneCenterLeftBorderGlow.png" (specified by argument number 17)  	[MsgId: MMSG-26577]
+Action.c(69): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneTopRightBorderGlow.png" (specified by argument number 19)  	[MsgId: MMSG-26577]
+Action.c(69): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/HorizonBgBottom.png" (specified by argument number 21)  	[MsgId: MMSG-26577]
+Action.c(69): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneTopLeftBorderGlow.png" (specified by argument number 23)  	[MsgId: MMSG-26577]
+Action.c(69): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneTopRightGradient.png" (specified by argument number 25)  	[MsgId: MMSG-26577]
+Action.c(69): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/Devices.png" (specified by argument number 27)  	[MsgId: MMSG-26577]
+Action.c(69): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneFooterRightBorderGlow.png" (specified by argument number 29)  	[MsgId: MMSG-26577]
+Action.c(69): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneFooterMidBorderGlow.png" (specified by argument number 31)  	[MsgId: MMSG-26577]
+Action.c(69): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneFooterLeftBorderGlow.png" (specified by argument number 33)  	[MsgId: MMSG-26577]
+Action.c(69): Found resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/Loader.gif" in HTML "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/silentDetection.aspx"  	[MsgId: MMSG-26659]
+Action.c(69): Notify: Saving Parameter "CitrixXenApp_Session_Token = C45780AAFEB65360CB28769DA9A86E3D".
+Action.c(69): web_url("silentDetection.aspx_2") was successful, 118170 body bytes, 4795 header bytes  	[MsgId: MMSG-26386]
+Action.c(92): web_submit_data("clientDetectionOutputs.aspx") started  	[MsgId: MMSG-26355]
+Action.c(92): Notify: Parameter Substitution: parameter "CitrixXenApp_Session_Token" =  "C45780AAFEB65360CB28769DA9A86E3D"
+Action.c(92): Redirecting "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/clientDetectionOutputs.aspx" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(92): To location "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/silentDetection.aspx"  	[MsgId: MMSG-26693]
+Action.c(92): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/Loader.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(92): web_submit_data("clientDetectionOutputs.aspx") was successful, 4350 body bytes, 1728 header bytes  	[MsgId: MMSG-26386]
+Action.c(106): web_url("silentDetection.aspx_3") started  	[MsgId: MMSG-26355]
+Action.c(106): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/Loader.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(106): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneFooterLeftBorderGlow.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(106): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/HorizonBgTop.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(106): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneFooterMidBorderGlow.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(106): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneCenterRightBorderGlow.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(106): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneTopRightBorderGlow.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(106): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneCenterLeftBorderGlow.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(106): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneTopLeftBorderGlow.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(106): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/Devices.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(106): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/HorizonBgBottom.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(106): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneTopRightGradient.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(106): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneTopLeftGradient.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(106): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneTopMidBorderGlow.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(106): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneFooterRightBorderGlow.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(106): web_url("silentDetection.aspx_3") was successful, 4216 body bytes, 837 header bytes  	[MsgId: MMSG-26386]
+Action.c(129): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(129): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(131): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(131): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(133): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(133): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(135): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(135): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(137): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(137): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(139): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(139): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(141): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(141): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(143): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(143): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(145): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(145): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(147): web_url("login.aspx") started  	[MsgId: MMSG-26355]
+Action.c(147): Found resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/style.aspx?cacheString=en++Normal++ywBx6S85sUw5jFW2vwYH6A++Qkv6IzH6bBuukZYNnE+gfB" in HTML "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/login.aspx"  	[MsgId: MMSG-26659]
+Action.c(147): Found resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/javascript.aspx?cacheString=en++Normal++ywBx6S85sUw5jFW2vwYH6A++Qkv6IzH6bBuukZYNnE+gfB" in HTML "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/login.aspx"  	[MsgId: MMSG-26659]
+Action.c(147): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/ButtonLeft.png" (specified by argument number 9)  	[MsgId: MMSG-26577]
+Action.c(147): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/ButtonRight.png" (specified by argument number 11)  	[MsgId: MMSG-26577]
+Action.c(147): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/Error24.gif" (specified by argument number 13)  	[MsgId: MMSG-26577]
+Action.c(147): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/ButtonHoverRight.png" (specified by argument number 15)  	[MsgId: MMSG-26577]
+Action.c(147): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/ButtonHoverLeft.png" (specified by argument number 17)  	[MsgId: MMSG-26577]
+Action.c(147): Downloading resource "https://iecvlist.microsoft.com/IE11/1387494476607/iecompatviewlist.xml" (specified by argument number 19)  	[MsgId: MMSG-26577]
+Action.c(147): Found resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/CitrixXenApp.png" in HTML "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/login.aspx"  	[MsgId: MMSG-26659]
+Action.c(147): Found resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/CitrixWatermark.png" in HTML "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/login.aspx"  	[MsgId: MMSG-26659]
+Action.c(147): Found resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/HDX.png" in HTML "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/login.aspx"  	[MsgId: MMSG-26659]
+Action.c(147): Detected non-resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/html/dummy.html" in "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/login.aspx"  	[MsgId: MMSG-26574]
+Action.c(147): web_url("login.aspx") was successful, 143645 body bytes, 4489 header bytes  	[MsgId: MMSG-26386]
+Action.c(163): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(163): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(165): web_submit_form("login.aspx_2") started  	[MsgId: MMSG-26355]
+Action.c(165): Submitting form to "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/login.aspx", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(165): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/TrailBackground.png" (specified by argument number 14)  	[MsgId: MMSG-26577]
+Action.c(165): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/GreyLine.gif" (specified by argument number 17)  	[MsgId: MMSG-26577]
+Action.c(165): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/Search.png" (specified by argument number 20)  	[MsgId: MMSG-26577]
+Action.c(165): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/TabRight.png" (specified by argument number 23)  	[MsgId: MMSG-26577]
+Action.c(165): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/HeaderGradient.png" (specified by argument number 26)  	[MsgId: MMSG-26577]
+Action.c(165): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/TabSelectedRight.png" (specified by argument number 29)  	[MsgId: MMSG-26577]
+Action.c(165): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/Messages.png" (specified by argument number 32)  	[MsgId: MMSG-26577]
+Action.c(165): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/Settings.png" (specified by argument number 35)  	[MsgId: MMSG-26577]
+Action.c(165): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LightboxTopLeft.png" (specified by argument number 38)  	[MsgId: MMSG-26577]
+Action.c(165): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/TabLeft.png" (specified by argument number 41)  	[MsgId: MMSG-26577]
+Action.c(165): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/HintBackgroundLeft.png" (specified by argument number 44)  	[MsgId: MMSG-26577]
+Action.c(165): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/Logoff.png" (specified by argument number 47)  	[MsgId: MMSG-26577]
+Action.c(165): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/TabSelectedLeft.png" (specified by argument number 50)  	[MsgId: MMSG-26577]
+Action.c(165): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LightboxTopBorder.png" (specified by argument number 53)  	[MsgId: MMSG-26577]
+Action.c(165): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LightboxRightBorder.png" (specified by argument number 56)  	[MsgId: MMSG-26577]
+Action.c(165): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LightboxTopRight.png" (specified by argument number 59)  	[MsgId: MMSG-26577]
+Action.c(165): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LightboxLeftBorder.png" (specified by argument number 62)  	[MsgId: MMSG-26577]
+Action.c(165): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/HintBackgroundRight.png" (specified by argument number 65)  	[MsgId: MMSG-26577]
+Action.c(165): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LightboxBottomLeft.png" (specified by argument number 68)  	[MsgId: MMSG-26577]
+Action.c(165): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LightboxBottomBorder.png" (specified by argument number 71)  	[MsgId: MMSG-26577]
+Action.c(165): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/HintBackground.png" (specified by argument number 74)  	[MsgId: MMSG-26577]
+Action.c(165): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/DropDownArrow.gif" (specified by argument number 77)  	[MsgId: MMSG-26577]
+Action.c(165): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LightboxBottomRight.png" (specified by argument number 80)  	[MsgId: MMSG-26577]
+Action.c(165): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/TabHoverLeft.png" (specified by argument number 83)  	[MsgId: MMSG-26577]
+Action.c(165): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/TabHoverRight.png" (specified by argument number 86)  	[MsgId: MMSG-26577]
+Action.c(165): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/HoverGradient.png" (specified by argument number 89)  	[MsgId: MMSG-26577]
+Action.c(165): Redirecting "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/login.aspx" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(165): To location "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/default.aspx"  	[MsgId: MMSG-26693]
+Action.c(165): Found resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/style.aspx?cacheString=en++Normal++ywBx6S85sUw5jFW2vwYH6A++Qkv6IzH6bBuukZYNnE+gfB" in HTML "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/default.aspx"  	[MsgId: MMSG-26659]
+Action.c(165): Found resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/javascript.aspx?cacheString=en++Normal++ywBx6S85sUw5jFW2vwYH6A++Qkv6IzH6bBuukZYNnE+gfB++authenticated" in HTML "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/default.aspx"  	[MsgId: MMSG-26659]
+Action.c(165): Found resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/CitrixLogoHeader.png" in HTML "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/default.aspx"  	[MsgId: MMSG-26659]
+Action.c(165): Found resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/DownArrow.png" in HTML "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/default.aspx"  	[MsgId: MMSG-26659]
+Action.c(165): Found resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/icons.aspx?size=normal&id=id2E5CDA09BC12566AF488FC3ADA43B4ABC59AF09F" in HTML "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/default.aspx"  	[MsgId: MMSG-26659]
+Action.c(165): Found resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/Transparent16.gif" in HTML "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/default.aspx"  	[MsgId: MMSG-26659]
+Action.c(165): Found resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/icons.aspx?size=normal&id=idADE2D816801FBE1F2C7BD722292412A9F853E402" in HTML "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/default.aspx"  	[MsgId: MMSG-26659]
+Action.c(165): Found resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/icons.aspx?size=normal&id=idB72DA02E44FF1064D5069C746390D6FCA29AF5F8" in HTML "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/default.aspx"  	[MsgId: MMSG-26659]
+Action.c(165): Found resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/icons.aspx?size=normal&id=id5C6D3CD55C7A1A4F5460864A5903647420C6947A" in HTML "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/default.aspx"  	[MsgId: MMSG-26659]
+Action.c(165): Found resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/icons.aspx?size=normal&id=idB5D9765E95FF675E0BA33F57465F6FEC342CE0EC" in HTML "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/default.aspx"  	[MsgId: MMSG-26659]
+Action.c(165): Found resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/icons.aspx?size=normal&id=idFECE132DFF23421C43AA76AAFA4BE7A41FAA6C54" in HTML "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/default.aspx"  	[MsgId: MMSG-26659]
+Action.c(165): Found resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/CloseHint.gif" in HTML "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/default.aspx"  	[MsgId: MMSG-26659]
+Action.c(165): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/CitrixWatermark.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(165): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/HDX.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(165): Detected non-resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/html/dummy.html" in "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/default.aspx"  	[MsgId: MMSG-26574]
+Action.c(165): Retrieving data from cache for "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/html/dummy.html"  	[MsgId: MMSG-26558]
+Action.c(165): Detected non-resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/html/dummy.html" in "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/default.aspx"  	[MsgId: MMSG-26574]
+Action.c(165): Retrieving data from cache for "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/html/dummy.html"  	[MsgId: MMSG-26558]
+Action.c(165): Found resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LightboxCloseButton.png" in HTML "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/default.aspx"  	[MsgId: MMSG-26659]
+Action.c(165): Found resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/AlertIconLarge.png" in HTML "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/default.aspx"  	[MsgId: MMSG-26659]
+Action.c(165): web_submit_form("login.aspx_2") was successful, 166417 body bytes, 13223 header bytes  	[MsgId: MMSG-26386]
+Action.c(200): web_url("reconnect.aspx") started  	[MsgId: MMSG-26355]
+Action.c(200): Notify: Parameter Substitution: parameter "CitrixXenApp_Session_Token" =  "C45780AAFEB65360CB28769DA9A86E3D"
+Action.c(200): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/javascript.aspx?cacheString=en++Normal++ywBx6S85sUw5jFW2vwYH6A++Qkv6IzH6bBuukZYNnE+gfB++authenticated" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(200): web_url("reconnect.aspx") was successful, 5774 body bytes, 860 header bytes  	[MsgId: MMSG-26386]
+Action.c(209): lr_think_time: 10.00 seconds.
+Action.c(211): web_url("default.aspx") started  	[MsgId: MMSG-26355]
+Action.c(211): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/DesktopInactive.png" (specified by argument number 9)  	[MsgId: MMSG-26577]
+Action.c(211): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/DesktopShadow.png" (specified by argument number 12)  	[MsgId: MMSG-26577]
+Action.c(211): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/DesktopReady.png" (specified by argument number 15)  	[MsgId: MMSG-26577]
+Action.c(211): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/DesktopRollover.png" (specified by argument number 18)  	[MsgId: MMSG-26577]
+Action.c(211): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/DesktopActive.png" (specified by argument number 21)  	[MsgId: MMSG-26577]
+Action.c(211): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/style.aspx?cacheString=en++Normal++ywBx6S85sUw5jFW2vwYH6A++Qkv6IzH6bBuukZYNnE+gfB" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(211): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/javascript.aspx?cacheString=en++Normal++ywBx6S85sUw5jFW2vwYH6A++Qkv6IzH6bBuukZYNnE+gfB++authenticated" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(211): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/CitrixLogoHeader.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(211): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/CloseHint.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(211): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/CitrixWatermark.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(211): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/HDX.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(211): Detected non-resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/html/dummy.html" in "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/default.aspx?CTX_CurrentTab=Desktops"  	[MsgId: MMSG-26574]
+Action.c(211): Retrieving data from cache for "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/html/dummy.html"  	[MsgId: MMSG-26558]
+Action.c(211): Detected non-resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/html/dummy.html" in "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/default.aspx?CTX_CurrentTab=Desktops"  	[MsgId: MMSG-26574]
+Action.c(211): Retrieving data from cache for "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/html/dummy.html"  	[MsgId: MMSG-26558]
+Action.c(211): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LightboxCloseButton.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(211): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/AlertIconLarge.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(211): web_url("default.aspx") was successful, 40854 body bytes, 2315 header bytes  	[MsgId: MMSG-26386]
+Action.c(226): Connecting via NFUSE portal "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/launch.ica?CTX_Application=Citrix.MPS.Desktop.Farm1.Desktop&CTX_Token={CitrixXenApp_Session_Token}&LaunchId=1479362010308"
+Action.c(226): Notify: Parameter Substitution: parameter "CitrixXenApp_Session_Token" =  "C45780AAFEB65360CB28769DA9A86E3D"
+Action.c(226): Setting connection option "ICAFILE" to "C:\Users\appsadmin\Documents\VuGen\Scripts\CitrixICA_Multi2\\nfuse_(null).ica"
+18/11/2016 14:24:18 Action.c(226): (1592:3344) - CitrixClientImpl.dll version: 12.53.1203.0
+18/11/2016 14:24:18 Action.c(226): (1592:3344) - Number of currently used GDI handles on this machine = 2046
+18/11/2016 14:24:18 Action.c(226): (1592:3344) - Running Citrix processes:
+	concentr.exe, pid 3044, GDI handles in use: 22
+
+18/11/2016 14:24:18 Action.c(226): (1592:3344) - Modifying ICA file with commands "ConnectionBar=0	TWIMode=Off": done with status 0 (SUCCESS).
+
+18/11/2016 14:24:18 Action.c(226): (1592:3344) - Before GetPrivateProfileString
+18/11/2016 14:24:18 Action.c(226): (1592:3344) - Application name returned = Desktop, 
+ File path = C:\Users\appsadmin\Documents\VuGen\Scripts\CitrixICA_Multi2\\nfuse_(null).ica
+18/11/2016 14:24:18 Action.c(226): (1592:3344) - Returned value from GetProfileString is 16.60.153.192:1494ret val = 18
+18/11/2016 14:24:18 Action.c(226): (1592:3344) - Citrix ClientName is "VMLRSEL101-"
+18/11/2016 14:24:18 Action.c(226): (1592:3344) - WaitForEvent: Initializing wait event, time=180000, end time=101351703
+18/11/2016 14:24:21 Action.c(226): (1592:3344) - Got Connect event
+18/11/2016 14:24:21 Action.c(226): (1592:3344) - Number of currently used GDI handles on this machine = 2060
+18/11/2016 14:24:21 Action.c(226): (1592:3344) - Running Citrix processes:
+	concentr.exe, pid 3044, GDI handles in use: 22
+	wfica32.exe, pid 1492, GDI handles in use: 11
+
+18/11/2016 14:24:21 Action.c(226): (1592:3344) - client resolution = 1920x1200, client color depth = 16 bits
+
+18/11/2016 14:24:21 Action.c(226): (1592:3344) - Wake Up and check new event.
+Action.c(228): Waiting for logon
+18/11/2016 14:24:21 Action.c(228): (1592:3344) - WaitForEvent: Initializing wait event, time=60000, end time=101234609
+18/11/2016 14:24:25 Action.c(228): (1592:3344) - Foreground window = 65582
+
+18/11/2016 14:24:27 Action.c(228): (1592:3344) - CCitrixContainerDlg::OnChannelDataReceivedEvent - m_client->GetChannelData returned 49 characters, size(49), type(0) - <Start12.53.1203.0DEP:0,CAPS:LOGOFF,Host:LABM3LT47>
+Action.c(228): Start notification arrived from the Agent, Agent version = "12.53.1203.0"
+18/11/2016 14:24:27 Action.c(228): (1592:3344) - Informational: DEP is "OFF" on the Citrix server
+18/11/2016 14:24:27 Action.c(228): (1592:3344) - <TCP> TCP channel state is: Disabled
+18/11/2016 14:24:27 Action.c(228): (1592:3344) - <TCP> WorkMode:0,1
+18/11/2016 14:24:27 Action.c(228): (1592:3344) - going to invoke m_client->SendChannelData
+18/11/2016 14:24:27 Action.c(228): (1592:3344) - The buffer was sent successfully: length=12, data=<WorkMode:0,1>
+18/11/2016 14:24:28 Action.c(228): (1592:3344) - CCitrixContainerDlg::OnChannelDataReceivedEvent - m_client->GetChannelData returned 16 characters, size(16), type(0) - <WorkModeResponse>
+18/11/2016 14:24:28 Action.c(228): (1592:3344) - CCitrixContainerDlg::OnChannelDataReceivedEvent - workmode response in channel data - ignored
+18/11/2016 14:24:28 Action.c(228): (1592:3344) - "Desktop" is not currently in map, adding it now
+18/11/2016 14:24:28 Action.c(228): (1592:3344) - Create window name="Desktop" flag=0 style=-1778384896 ext_style=128 ID=65818
+
+18/11/2016 14:24:28 Action.c(228): (1592:3344) - Created window: "Desktop"  at (0, 0)
+18/11/2016 14:24:28 Action.c(228): (1592:3344) - Foreground window = 65818
+
+18/11/2016 14:24:28 Action.c(228): (1592:3344) - "Shell_TrayWnd" is not currently in map, adding it now
+18/11/2016 14:24:28 Action.c(228): (1592:3344) - Create window name="Shell_TrayWnd" flag=1 style=-1769734144 ext_style=392 ID=65672
+
+18/11/2016 14:24:28 Action.c(228): (1592:3344) - Created window: "Shell_TrayWnd"  at (-2, 556)
+18/11/2016 14:24:28 Action.c(228): (1592:3344) - Get Logon event
+18/11/2016 14:24:28 Action.c(228): (1592:3344) - Wake Up and check new event.
+Action.c(228): Logon succeeded
+Action.c(230): lr_think_time: 10.00 seconds.
+18/11/2016 14:24:28 Action.c(230): (1592:3344) - "Start" is not currently in map, adding it now
+18/11/2016 14:24:28 Action.c(230): (1592:3344) - Create window name="Start" flag=1 style=-1811936256 ext_style=524424 ID=65678
+
+18/11/2016 14:24:28 Action.c(230): (1592:3344) - Created window: "Start"  at (2, 560)
+18/11/2016 14:24:28 Action.c(230): (1592:3344) - Foreground window = 65884
+
+18/11/2016 14:24:28 Action.c(230): (1592:3344) - Foreground window = 65972
+
+18/11/2016 14:24:33 Action.c(230): (1592:3344) - "Server Manager" is not currently in map, adding it now
+18/11/2016 14:24:33 Action.c(230): (1592:3344) - Create window name="Server Manager" flag=0 style=349110272 ext_style=256 ID=66100
+
+18/11/2016 14:24:33 Action.c(230): (1592:3344) - Created window: "Server Manager"  at (0, 0)
+18/11/2016 14:24:33 Action.c(230): (1592:3344) - Activate window: "Server Manager"
+18/11/2016 14:24:33 Action.c(230): (1592:3344) - Foreground window = 66100
+
+Action.c(232): Waiting for window "Server Manager" to exist
+18/11/2016 14:24:38 Action.c(232): (1592:3344) - WaitForEvent: Initializing wait event, time=60000, end time=101251921
+Action.c(232): Waiting for window "Server Manager" to be foreground window
+18/11/2016 14:24:38 Action.c(232): (1592:3344) - WaitForEvent: Initializing wait event, time=60000, end time=101251921
+Action.c(232): Ensuring window "Server Manager" is at (0, 0, 801, 557)
+Action.c(234): lr_think_time: 10.00 seconds.
+Action.c(236): Logging off
+18/11/2016 14:24:48 Action.c(236): (1592:3344) - Calling Logoff()
+18/11/2016 14:24:48 Action.c(236): (1592:3344) - WaitForEvent: Initializing wait event, time=60000, end time=101262031
+18/11/2016 14:24:48 Action.c(236): (1592:3344) - "Microsoft Management Console" is not currently in map, adding it now
+18/11/2016 14:24:48 Action.c(236): (1592:3344) - Caption change: "Server Manager" ---> "Microsoft Management Console" = "Microsoft Management Console"
+18/11/2016 14:24:48 Action.c(236): (1592:3344) - Foreground window = 66178
+
+18/11/2016 14:24:48 Action.c(236): (1592:3344) - Foreground window = 0
+
+18/11/2016 14:24:49 Action.c(236): (1592:3344) - Foreground window = 0
+
+18/11/2016 14:24:49 Action.c(236): (1592:3344) - Destroy window: "Microsoft Management Console"
+18/11/2016 14:24:49 Action.c(236): (1592:3344) - removing "Microsoft Management Console" from LogicNameMap
+18/11/2016 14:24:49 Action.c(236): (1592:3344) - Foreground window = 0
+
+18/11/2016 14:24:49 Action.c(236): (1592:3344) - Foreground window = 65602
+
+18/11/2016 14:24:50 Action.c(236): (1592:3344) - Foreground window = 65818
+
+18/11/2016 14:24:50 Action.c(236): (1592:3344) - Foreground window = 65838
+
+18/11/2016 14:24:50 Action.c(236): (1592:3344) - Destroy window: "Start"
+18/11/2016 14:24:50 Action.c(236): (1592:3344) - removing "Start" from LogicNameMap
+18/11/2016 14:24:50 Action.c(236): (1592:3344) - Destroy window: "Shell_TrayWnd"
+18/11/2016 14:24:50 Action.c(236): (1592:3344) - removing "Shell_TrayWnd" from LogicNameMap
+18/11/2016 14:24:50 Action.c(236): (1592:3344) - Destroy window: "Desktop"
+18/11/2016 14:24:50 Action.c(236): (1592:3344) - removing "Desktop" from LogicNameMap
+18/11/2016 14:24:52 Action.c(236): (1592:3344) - "Windows Logon" is not currently in map, adding it now
+18/11/2016 14:24:52 Action.c(236): (1592:3344) - Create window name="Windows Logon" flag=0 style=-1778384896 ext_style=0 ID=66698
+
+18/11/2016 14:24:52 Action.c(236): (1592:3344) - Created window: "Windows Logon"  at (0, 0)
+18/11/2016 14:24:52 Action.c(236): (1592:3344) - Foreground window = 66698
+
+18/11/2016 14:24:54 Action.c(236): (1592:3344) - Inside OnDisconnectEvent()
+18/11/2016 14:24:54 Action.c(236): (1592:3344) - Number of currently used GDI handles on this machine = 2077
+18/11/2016 14:24:54 Action.c(236): (1592:3344) - Running Citrix processes:
+	concentr.exe, pid 3044, GDI handles in use: 22
+	wfica32.exe, pid 1492, GDI handles in use: 27
+
+18/11/2016 14:24:54 Action.c(236): (1592:3344) - Got Disconnect event
+18/11/2016 14:24:54 Action.c(236): (1592:3344) - Wake Up and check new event.
+18/11/2016 14:24:54 Action.c(236): (1592:3344) - WaitForEvent result = 0
+18/11/2016 14:24:54 Action.c(236): (1592:3344) - Already disconnected, no need to logoff again
+Action.c(238): web_url("logout.aspx") started  	[MsgId: MMSG-26355]
+Action.c(238): Notify: Parameter Substitution: parameter "CitrixXenApp_Session_Token" =  "C45780AAFEB65360CB28769DA9A86E3D"
+Action.c(238): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/DevicesLoggedOff.png" (specified by argument number 9)  	[MsgId: MMSG-26577]
+Action.c(238): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/HorizonBgBottomLoggedOff.png" (specified by argument number 12)  	[MsgId: MMSG-26577]
+Action.c(238): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/HorizonBgTopLoggedOff.png" (specified by argument number 15)  	[MsgId: MMSG-26577]
+Action.c(238): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneFooterRightLoggedOff.png" (specified by argument number 18)  	[MsgId: MMSG-26577]
+Action.c(238): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneFooterLeftLoggedOff.png" (specified by argument number 21)  	[MsgId: MMSG-26577]
+Action.c(238): Downloading resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/LoginPaneFooterMidLoggedOff.png" (specified by argument number 24)  	[MsgId: MMSG-26577]
+Action.c(238): Redirecting "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/site/logout.aspx?CTX_Token=C45780AAFEB65360CB28769DA9A86E3D" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(238): To location "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/loggedout.aspx"  	[MsgId: MMSG-26693]
+Action.c(238): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/style.aspx?cacheString=en++Normal++ywBx6S85sUw5jFW2vwYH6A++Qkv6IzH6bBuukZYNnE+gfB" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(238): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/javascript.aspx?cacheString=en++Normal++ywBx6S85sUw5jFW2vwYH6A++Qkv6IzH6bBuukZYNnE+gfB" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(238): Found resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/CitrixXenAppLoggedoff.png" in HTML "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/loggedout.aspx"  	[MsgId: MMSG-26659]
+Action.c(238): Found resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/CitrixLogoDarkLoggedOff.png" in HTML "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/loggedout.aspx"  	[MsgId: MMSG-26659]
+Action.c(238): Found resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/HDXLoggedOff.png" in HTML "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/loggedout.aspx"  	[MsgId: MMSG-26659]
+Action.c(238): Detected non-resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/html/dummy.html" in "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/loggedout.aspx"  	[MsgId: MMSG-26574]
+Action.c(238): Retrieving data from cache for "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/html/dummy.html"  	[MsgId: MMSG-26558]
+Action.c(238): Detected non-resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/html/dummy.html" in "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/loggedout.aspx"  	[MsgId: MMSG-26574]
+Action.c(238): Retrieving data from cache for "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/html/dummy.html"  	[MsgId: MMSG-26558]
+Action.c(238): web_url("logout.aspx") was successful, 58625 body bytes, 4397 header bytes  	[MsgId: MMSG-26386]
+Action.c(254): web_link("Return to Log On") started  	[MsgId: MMSG-26355]
+Action.c(254): Linking to "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/login.aspx?CTX_FromLoggedoutPage=1", Target Frame=""  	[MsgId: MMSG-27994]
+Action.c(254): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/style.aspx?cacheString=en++Normal++ywBx6S85sUw5jFW2vwYH6A++Qkv6IzH6bBuukZYNnE+gfB" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(254): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/javascript.aspx?cacheString=en++Normal++ywBx6S85sUw5jFW2vwYH6A++Qkv6IzH6bBuukZYNnE+gfB" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(254): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/CitrixXenApp.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(254): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/CitrixWatermark.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(254): Resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/media/HDX.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(254): Detected non-resource "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/html/dummy.html" in "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/login.aspx?CTX_FromLoggedoutPage=1"  	[MsgId: MMSG-26574]
+Action.c(254): Retrieving data from cache for "http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/html/dummy.html"  	[MsgId: MMSG-26558]
+Action.c(254): web_link("Return to Log On") was successful, 17928 body bytes, 857 header bytes  	[MsgId: MMSG-26386]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+18/11/2016 14:24:55 (1592:3344) - Already disconnected, no need to disconnect again
+Vuser 0 (thread 3344), ended OK."

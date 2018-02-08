@@ -1,0 +1,33 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!--
+  default.htm
+  Copyright (c) 2000 - 2010 Citrix Systems, Inc. All Rights Reserved.
+-->
+<html>
+    <head>
+        <title>Loading</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="ROBOTS" content="NOINDEX, NOFOLLOW, NOARCHIVE">
+
+        <script type="text/javascript">
+            <!--
+            function redirectToLoadingPage() {
+                var width = -1;
+                if(window && window.screen && window.screen.width) {
+                    width = window.screen.width;
+                }
+                if (width > 0 && width <= 500) {
+                    location="compactLoading.htm";
+                } else {
+                    location="loading.htm";
+                }
+            }
+            -->
+        </script>
+    </head>
+    <body onLoad='redirectToLoadingPage();'>
+        <p>
+            Click&nbsp;<a id='loginPageLink' href='auth/login.aspx'>here</a>&nbsp;if you are not automatically redirected.
+        </p>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+GET http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/login.aspx?CTX_FromLoggedoutPage=1 HTTP/1.1
+Accept: application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*
+Referer: http://labm3lt47.hpswlabs.adapps.hp.com/Citrix/XenApp/auth/loggedout.aspx
+Accept-Language: en-US
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)
+Accept-Encoding: gzip, deflate
+Host: labm3lt47.hpswlabs.adapps.hp.com
+Proxy-Connection: Keep-Alive
+Cookie: WIClientInfo="Cookies_On#true~icaScreenResolution#1920x1200~clientConnSecure#false"; WIUser="CTX_ForcedClient#Off~CTX_LaunchMethod#Ica-Local~CTX_AuthMethod#Explicit~CTX_ViewStyle#%7bApplications%3dIcons%7d"; WINGDevice="CTX_DeviceId#WI_j1PxUmHWWCqhedgRZ"; WINGSession="icaScreenResolution#1920x1200~streamingClientDetected#~CTXAllowSilent#Off~clientConnSecure#false~remoteClientDetected#Ica-Local%3dAuto%2cIncorrectZone~icoStatus#IsNotPassthrough"; WIAuthId=EA123E3F6F509C39A0A43BC8A1696FAD; ASP.NET_SessionId=pb0joe455goas4bbxev1ds45
+
