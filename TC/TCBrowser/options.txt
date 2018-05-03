@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\lliu2\Desktop\Scripts\TruClient1
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\lliu2\desktop\scripts\truclient1\\logfile.log
+c:\users\lliu2\desktop\scripts\truclient1\\combined_TruClient1.c
+c:\users\lliu2\desktop\scripts\truclient1\\pre_cci.c
