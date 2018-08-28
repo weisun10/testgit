@@ -1,0 +1,10 @@
+{
+  "name": "simple-mocha-test",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "mocha": "5.2.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

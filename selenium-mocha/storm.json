@@ -1,0 +1,6 @@
+{
+  "execution": "Selenium",
+  "runner": "mocha",
+  "transactions": [ "testTran1" ]
+}
+
