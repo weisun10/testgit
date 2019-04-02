@@ -5,7 +5,7 @@ Action()
 
 	/* Dynamic Parameter - Name : AosIp, Value : {AosIp} */
 
-//	 lr_user_data_point("my_counter", 20);
+	 lr_user_data_point("my_counter", 20);
 	
 	lr_start_transaction("AOS_Home");
 
