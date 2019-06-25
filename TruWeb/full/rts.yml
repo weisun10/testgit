@@ -1,0 +1,11 @@
+httpConnection:                         #Configuration for the Net Loader component?
+  maxPersistentConnectionsPerHost: 6    #The maximum number of connections per host a Vuser can open simultaneously (browser emulation)
+  maxConnectedHosts: 30                 #The maximum number of connected host per vuser at any time
+  simulateNewUser: true                 #Indicates whether to simulate new user for each iteration or not (relevant for closing connections)
+  maxRedirectDepth: 10                  #The maximum number of redirect when send request
+  reportAtomicTransactions: false       #Indicates whether to report atomic transactions measurement
+
+vuserLogger:                   #Temporary configuration for vuser logger
+  maxBufferSize: 4096          #The maximum buffer size for each vusers logger
+  logMode: full #Specify when to create the log file, the value should be one of "full, error, none"
+  logLevel: error              #The log level for vusers logger, the value should be one of "error, info, debug, trace"
