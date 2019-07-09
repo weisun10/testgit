@@ -4,6 +4,7 @@ Action()
 	/*1: Navigate to "http://" LR.getParam('AosIp') "/*/
 
 	/* Dynamic Parameter - Name : AosIp, Value : {AosIp} */
+	/* this is a comment */
 
 	lr_start_transaction("AOS_Home");
 
