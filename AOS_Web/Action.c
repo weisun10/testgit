@@ -4,9 +4,9 @@ Action()
 	/*1: Navigate to "http://" LR.getParam('AosIp') "/*/
 
 	/* Dynamic Parameter - Name : AosIp, Value : {AosIp} */
-	/* this is a comment */
+	
 
-	lr_start_transaction("AOS_Home_update");
+	lr_start_transaction("AOS_Home");
 
 //	web_set_user("TestUser1", 
 //		lr_decrypt("5926d433c5830126bb82b9dc"), 
@@ -152,7 +152,7 @@ Action()
 		"Mode=HTML", 
 		LAST);
 
-	lr_end_transaction("AOS_Home_update",LR_AUTO);
+	lr_end_transaction("AOS_Home",LR_AUTO);
 
 	lr_think_time(10);
 
