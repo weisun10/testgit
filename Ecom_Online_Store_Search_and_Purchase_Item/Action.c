@@ -17,20 +17,7 @@ Action()
 	
 	lr_end_transaction("Search_Item", LR_AUTO);
 	
-	lr_start_transaction("Search_Item2");
-
-	web_url("52.39.153.71", 
-		"URL=http://52.39.153.71/", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=", 
-		"Snapshot=t1.inf", 
-		"Mode=HTML", 
-		LAST);
-
-lr_end_transaction("Search_Item2", LR_AUTO);
 	
-//comment 2	
 	
 	lr_start_transaction("Purchase_Item");
 	web_url("secondPage.html", 
