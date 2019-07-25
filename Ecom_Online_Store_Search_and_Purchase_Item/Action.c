@@ -13,7 +13,7 @@ Action()
 		"Snapshot=t1.inf", 
 		"Mode=HTML", 
 		LAST);
-		lr_think_time(3);
+		lr_think_time(1);
 	
 	lr_end_transaction("Search_Item", LR_AUTO);
 	
