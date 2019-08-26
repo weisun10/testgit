@@ -9,9 +9,10 @@ ActionLogicExt=action_logic
 LastActiveAction=Action
 MajorVersion=12
 MinorVersion=53
-ActiveTypes=QTWeb
-GenerateTypes=QTWeb
-AdditionalTypes=QTWeb
+ScriptExitOK=1
+ActiveTypes=WS_SOAP
+GenerateTypes=WS_SOAP
+AdditionalTypes=WS_SOAP,QTWeb
 DevelopTool=Vugen
 LastModifyVer=12.53.0.1203
 ParamLeftBrace={
@@ -27,12 +28,12 @@ Action=Action.c
 vuser_end=vuser_end.c
 [RunLogicFiles]
 Default Profile=default.usp
+[ExtraFiles]
+globals.h=
 [VuserProfiles]
 Profiles=Default Profile
 [CfgFiles]
 Default Profile=default.cfg
-[ExtraFiles]
-globals.h=
 [Modified Actions]
 vuser_init=0
 Action=1
@@ -52,7 +53,7 @@ vuser_end=cci
 [TransactionsOrder]
 Order=
 [StateManagement]
-LastReplayStatus=1
+LastReplayStatus=2
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1
