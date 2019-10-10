@@ -16,6 +16,7 @@
 		lr_message("received message with size %d from %s", l, t);
 		lr_message("payload %.*s", l, p);
 	
+		 
 	 	mqtt_free_message(m);
 	 }
 	
