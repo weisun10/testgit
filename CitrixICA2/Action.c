@@ -1,6 +1,7 @@
 Action()
 {
 
+	
 	ctrx_set_connect_opt(CLIENT_NAME, "Test"); 
 
 	ctrx_set_connect_opt(NETWORK_PROTOCOL, "TCP/IP");
