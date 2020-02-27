@@ -1,6 +1,6 @@
 Action()
 {
-	lr_start_transaction("trans1");
+	lr_start_transaction("trans1"); //comment
 	lr_think_time(2);
 	lr_user_data_point("mic_recv", 100);
 	lr_user_data_point("HTTP_200", 1);		
