@@ -9,6 +9,10 @@ test:
     description: nightly regression # test description
     licenseMode: 1 # license mode: "VUH": 0, "VU": 1, "Mixed VU / VUH": 2
     runMode: 0     # run mode: "Duration": 0, "Iterations": 1, "Goal Oriented": 2
+    delayedStart: true
+    collectCloudVuserLogs: true
+    excludeThinktime: true
+    groupTransactions: true
   scripts:
     - vusersNum: 100
       path: ./scripts/web test        # path to your script; relative to this file
