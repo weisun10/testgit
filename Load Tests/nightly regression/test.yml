@@ -11,8 +11,10 @@ test:
     runMode: 0     # run mode: "Duration": 0, "Iterations": 1, "Goal Oriented": 2
     delayedStart: true
     collectCloudVuserLogs: true
-    excludeThinktime: true
+    excludeThinkTime: true
     groupTransactions: true
+    pauseScheduling: true
+    pauseSchedulingLimit: 3600
   scripts:
     - vusersNum: 100
       path: ./scripts/web test        # path to your script; relative to this file
