@@ -1,0 +1,77 @@
+version: 1.0
+type: lrctest
+metadata:
+  tenantId: 1234567890
+  projectId: 1
+  testId: 1
+test:
+  name: demo test        # test name
+  newTest: true          # create new test instead of updating existing one (if it's possible)  
+  settings:
+    description: my test # test description
+    licenseMode: 0 # license mode: "VUH": 0, "VU": 1, "Mixed VU / VUH": 2
+    runMode: 1     # run mode: "Duration": 0, "Iterations": 1, "Goal Oriented": 2
+  scripts:
+    - vusersNum: 10
+      path: ./scripts/web real        # path to your script; relative to this file
+      id: 1                           # script's id; use existing script
+      startTime: 0
+      schedulingMode: simple          # simple , manual , advanced
+      rampUp:
+        duration: 10
+        interval: 0
+        vusers: 10
+      duration: 120
+      tearDown:
+        duration: 10
+        interval: 0
+        vusers: 10
+      locationType: 0 # 0: Cloud; 1: On-Premise
+      iterations: 5   #
+      maxDuration: 300
+
+    - path: ./scripts/web synthetic
+      vusersNum: 10
+      startTime: 0
+      schedulingMode: simple # simple, manual, advanced
+      rampUp:
+        duration: 0
+        interval: 0
+        vusers: 5
+      duration: 120
+      tearDown:
+        duration: 0
+        interval: 0
+        vusers: 5
+      locationType: 1 # 0: Cloud; 1: On-Premise
+      iterations: 5   #
+      maxDuration: 300
+
+    - path: ./scripts/devweb
+      vusersNum: 10
+      startTime: 0
+      schedulingMode: simple # simple, manual, advanced
+      rampUp:
+        duration: 0
+        interval: 0
+        vusers: 5
+      duration: 120
+      tearDown:
+        duration: 0
+        interval: 0
+        vusers: 5
+      locationType: 0 # 0: Cloud; 1: On-Premise
+      iterations: 5   #
+      maxDuration: 300
+      
+
+  distributions: # specify Vusers distributions for Cloud
+    - locationName: aws-us-east-1
+      vusersPercent: 40 # (%)
+    - locationName: aws-us-west-2
+      vusersPercent: 60 # (%)
+
+  loadGenerators: # on-premises load generators
+    - 03ff1bff9d8653d24451      # assign on-premises load generator to test by its key
+    - 88dded94103e71343fca
+
