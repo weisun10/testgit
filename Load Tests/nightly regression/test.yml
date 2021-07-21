@@ -6,7 +6,7 @@ metadata:
 test:
   name: nightly regression  # test name
   settings:
-    description: nightly regression # test description
+    description: nightly regression description # test description
     licenseMode: 1 # license mode: "VUH": 0, "VU": 1, "Mixed VU / VUH": 2
     runMode: 0     # run mode: "Duration": 0, "Iterations": 1, "Goal Oriented": 2
     delayedStart: true
