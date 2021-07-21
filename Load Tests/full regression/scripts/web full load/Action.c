@@ -9,13 +9,13 @@ Action()
 	lr_start_transaction("trans2");	
 	lr_think_time(2);
 	lr_user_data_point("HTTP_200", 1);		
-	lr_error_message("my error message");	
+	lr_error_message("my error message test");	
 	lr_end_transaction("trans2", LR_FAIL);		
 
-	lr_start_transaction("trans4");	
-	lr_think_time(3);
+	lr_start_transaction("trans test");	
+	lr_think_time(5);
     lr_user_data_point("mic_recv", 30);	
-	lr_end_transaction("trans4", LR_FAIL);		
+	lr_end_transaction("trans test", LR_FAIL);		
 	
 	return 0;
 }
