@@ -6,7 +6,7 @@ metadata:
 test:
   name: full regression # test name
   settings:
-    description: full regression with iterations 6 # test description
+    description: full regression with iterations 7 # test description
     licenseMode: 1 # license mode: "VUH": 0, "VU": 1, "Mixed VU / VUH": 2
     runMode: 1     # run mode: "Duration": 0, "Iterations": 1, "Goal Oriented": 2
     delayedStart: false
