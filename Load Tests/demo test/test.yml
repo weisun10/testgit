@@ -6,7 +6,7 @@ metadata:
 test:
   name: demo test        # test name
   settings:
-    description: my test # test description
+    description: my demo test # test description
     licenseMode: 0 # license mode: "VUH": 0, "VU": 1, "Mixed VU / VUH": 2
     runMode: 0     # run mode: "Duration": 0, "Iterations": 1, "Goal Oriented": 2
   scripts:
