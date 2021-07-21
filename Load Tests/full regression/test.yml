@@ -4,9 +4,9 @@ metadata:
   tenantId: 1234567890
   projectId: 1
 test:
-  name: full regression with specified iterations # test name
+  name: full regression # test name
   settings:
-    description: full regression # test description
+    description: full regression with specified iterations # test description
     licenseMode: 1 # license mode: "VUH": 0, "VU": 1, "Mixed VU / VUH": 2
     runMode: 1     # run mode: "Duration": 0, "Iterations": 1, "Goal Oriented": 2
     delayedStart: false
