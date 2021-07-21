@@ -13,7 +13,7 @@ lr_start_transaction("home");
 	lr_end_transaction("home", LR_AUTO);
 	
 	lr_start_transaction("second");
-		lr_think_time(10);
+		lr_think_time(20);
 	web_url("secondPage.html", 
 		"URL=http://peacefullb-6b31bc96c3f8df78.elb.us-west-2.amazonaws.com/secondPage.html", 
 		"Resource=0", 
