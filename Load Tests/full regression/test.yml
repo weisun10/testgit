@@ -10,13 +10,13 @@ test:
     licenseMode: 1 # license mode: "VUH": 0, "VU": 1, "Mixed VU / VUH": 2
     runMode: 1     # run mode: "Duration": 0, "Iterations": 1, "Goal Oriented": 2
     delayedStart: false
-    collectCloudVuserLogs: true
-    excludeThinkTime: false
-    groupTransactions: false
+    collectCloudVuserLogs: false
+    excludeThinkTime: true
+    groupTransactions: true
     pauseScheduling: false
     pauseSchedulingLimit: 3600
   scripts:
-    - vusersNum: 20
+    - vusersNum: 10
       path: ./scripts/web full test   # path to your script; relative to this file
       startTime: 0
       schedulingMode: simple          # simple , manual , advanced
@@ -30,24 +30,24 @@ test:
         interval: 0
         vusers: 10
       locationType: 0 # 0: Cloud; 1: On-Premise
-      iterations: 5   #
+      iterations: 6   #
       maxDuration: 300
 
     - path: ./scripts/web full load
-      vusersNum: 20
+      vusersNum: 30
       startTime: 0
       schedulingMode: simple # simple, manual, advanced
       rampUp:
         duration: 0
         interval: 0
-        vusers: 5
+        vusers: 30
       duration: 120
       tearDown:
         duration: 0
         interval: 0
         vusers: 5
       locationType: 0 # 0: Cloud; 1: On-Premise
-      iterations: 5   #
+      iterations: 6   #
       maxDuration: 300     
 
   distributions: # specify Vusers distributions for Cloud
