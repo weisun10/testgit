@@ -13,7 +13,7 @@ Action()
 	lr_end_transaction("trans2", LR_FAIL);		
 
 	lr_start_transaction("trans test");	
-	lr_think_time(5);
+	lr_think_time(1);
     lr_user_data_point("mic_recv", 30);	
 	lr_end_transaction("trans test", LR_FAIL);		
 	
