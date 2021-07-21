@@ -16,7 +16,7 @@ test:
     pauseScheduling: false
     pauseSchedulingLimit: 3600
   scripts:
-    - vusersNum: 30
+    - vusersNum: 60
       path: ./scripts/web full test   # path to your script; relative to this file
       startTime: 0
       schedulingMode: simple          # simple , manual , advanced
