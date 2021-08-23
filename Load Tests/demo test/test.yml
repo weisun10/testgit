@@ -10,7 +10,7 @@ test:
     licenseMode: 0 # license mode: "VUH": 0, "VU": 1, "Mixed VU / VUH": 2
     runMode: 0     # run mode: "Duration": 0, "Iterations": 1, "Goal Oriented": 2
   scripts:
-    - vusersNum: 10
+    - vusersNum: 15
       path: ./scripts/web real        # path to your script; relative to this file
       id: 1                           # script's id; use existing script
       startTime: 0
@@ -27,14 +27,14 @@ test:
       locationType: 0 # 0: Cloud; 1: On-Premise
 
     - path: ./scripts/web synthetic
-      vusersNum: 10
+      vusersNum: 15
       startTime: 0
       schedulingMode: simple # simple, manual, advanced
       rampUp:
         duration: 0
         interval: 0
         vusers: 5
-      duration: 120
+      duration: 360
       tearDown:
         duration: 0
         interval: 0
