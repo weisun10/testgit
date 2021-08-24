@@ -6,17 +6,17 @@ metadata:
 test:
   name: nightly regression test  # test name
   settings:
-    description: nightly regression # test description
+    description: nightly regression test # test description
     licenseMode: 1 # license mode: "VUH": 0, "VU": 1, "Mixed VU / VUH": 2
     runMode: 0     # run mode: "Duration": 0, "Iterations": 1, "Goal Oriented": 2
-    delayedStart: true
+    delayedStart: false
     collectCloudVuserLogs: true
-    excludeThinkTime: true
+    excludeThinkTime: false
     groupTransactions: true
     pauseScheduling: true
     pauseSchedulingLimit: 3600
   scripts:
-    - vusersNum: 101
+    - vusersNum: 50
       path: ./scripts/web test        # path to your script; relative to this file
       startTime: 0
       schedulingMode: simple          # simple , manual , advanced
@@ -34,7 +34,7 @@ test:
       maxDuration: 300
 
     - path: ./scripts/web load
-      vusersNum: 10
+      vusersNum: 50
       startTime: 0
       schedulingMode: simple # simple, manual, advanced
       rampUp:
