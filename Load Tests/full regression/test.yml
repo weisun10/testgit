@@ -30,7 +30,7 @@ test:
         interval: 0
         vusers: 10
       locationType: 0 # 0: Cloud; 1: On-Premise
-      iterations: 1   #
+      iterations: 10   #
       maxDuration: 300
 
     - path: ./scripts/web full load
