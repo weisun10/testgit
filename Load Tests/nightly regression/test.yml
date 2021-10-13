@@ -4,9 +4,9 @@ metadata:
   tenantId: 1234567890
   projectId: 1
 test:
-  name: nightly regression test  # test name
+  name: nightly regression test # test name
   settings:
-    description: nightly regression test # test description
+    description: nightly regression test - 13th Oct # test description
     licenseMode: 1 # license mode: "VUH": 0, "VU": 1, "Mixed VU / VUH": 2
     runMode: 0     # run mode: "Duration": 0, "Iterations": 1, "Goal Oriented": 2
     delayedStart: false
@@ -16,7 +16,7 @@ test:
     pauseScheduling: true
     pauseSchedulingLimit: 3600
   scripts:
-    - vusersNum: 50
+    - vusersNum: 20
       path: ./scripts/web test        # path to your script; relative to this file
       startTime: 0
       schedulingMode: simple          # simple , manual , advanced
@@ -34,7 +34,7 @@ test:
       maxDuration: 300
 
     - path: ./scripts/web load
-      vusersNum: 50
+      vusersNum: 20
       startTime: 0
       schedulingMode: simple # simple, manual, advanced
       rampUp:
@@ -52,6 +52,6 @@ test:
 
   distributions: # specify Vusers distributions for Cloud
     - locationName: aws-us-east-1
-      vusersPercent: 50 # (%)
+      vusersPercent: 40 # (%)
     - locationName: aws-us-west-2
-      vusersPercent: 50 # (%)
+      vusersPercent: 60 # (%)
