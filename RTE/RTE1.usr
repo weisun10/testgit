@@ -1,0 +1,55 @@
+[General]
+Type=RTE
+DefaultCfg=default.cfg
+MajorVersion=2021
+MinorVersion=2
+ParameterFile=
+GlobalParameterFile=
+LastActiveAction=Action
+DevelopTool=Vugen
+LastModifyVer=2021.2.0.0
+ActiveTypes=RTE
+AdditionalTypes=RTE
+GenerateTypes=RTE
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+RunType=cci
+LastCodeGenerationVer=
+DisableRegenerate=0
+Encoding=
+Description=
+ScriptLocale=en-US
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[RunLogicFiles]
+Default Profile=default.usp
+[Modified Actions]
+vuser_init=0
+Action=0
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=0
+Action=0
+vuser_end=0
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order=
+[StateManagement]
+LastReplayStatus=0
+[ActiveReplay]
+LastReplayedRunName=
+ActiveRunName=
