@@ -1,6 +1,6 @@
 type: lrc-data-files
 targets: 
   - common
-  - regression
+  - regression/full
   - nightly
   - sanity
