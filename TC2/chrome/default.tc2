@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "engineVersion": "2024.1.0.30",
+    "platform": "Chrome 116.0.5845.97",
+    "timestamp": "Wed Aug 23 2023 09:32:39 GMT+0300 (Israel Daylight Time)"
+  },
+  "default": {
+    "level": 1,
+    "actions": [
+      {
+        "id": "00000000-0000-0000-0000-Init",
+        "name": "Init",
+        "type": 1,
+        "steps": []
+      },
+      {
+        "id": "00000000-0000-0000-0000-Action",
+        "name": "Action",
+        "type": 1,
+        "steps": [
+          {
+            "id": "38bcfa06-47ae-6016-c06b-8024183a2853",
+            "type": 8,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 2,
+            "name": "TC_MeasurementOnPeaceFull",
+            "action": 1
+          },
+          {
+            "id": "bf1e1a54-33bd-94f3-723d-250c2565cf88",
+            "type": 3,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 1,
+            "arguments": [
+              {
+                "name": "location",
+                "value": "http://peacefullb-6b31bc96c3f8df78.elb.us-west-2.amazonaws.com/",
+                "type": 1
+              }
+            ],
+            "action": 100
+          },
+          {
+            "id": "66532617-5524-37e1-7bb5-4a6d622a83b4",
+            "type": 8,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 2,
+            "name": "TC_MeasurementOnPeaceFull",
+            "action": 2
+          }
+        ]
+      },
+      {
+        "id": "00000000-0000-0000-0000-End",
+        "name": "End",
+        "type": 1,
+        "steps": []
+      },
+      {
+        "id": "00000000-0000-0000-0000-RunLogic",
+        "name": "RunLogic",
+        "type": 2,
+        "steps": [
+          {
+            "id": "00000000-0000-0000-0000-InitBlock",
+            "type": 100,
+            "level": 100,
+            "disabled": false,
+            "endEvent": 1,
+            "steps": [
+              {
+                "id": "a5c41ffb-530a-9378-4e9b-04f435025887",
+                "type": 101,
+                "level": 100,
+                "disabled": false,
+                "endEvent": 1,
+                "actionName": "Init"
+              }
+            ],
+            "name": "Init Block",
+            "iteration": 1,
+            "mode": 1
+          },
+          {
+            "id": "00000000-0000-0000-0000-ActionBlock",
+            "type": 100,
+            "level": 100,
+            "disabled": false,
+            "endEvent": 1,
+            "steps": [
+              {
+                "id": "0cd61c16-15c2-2957-e6be-ff263dd25f85",
+                "type": 101,
+                "level": 100,
+                "disabled": false,
+                "endEvent": 1,
+                "actionName": "Action"
+              }
+            ],
+            "name": "Action Block",
+            "iteration": 1,
+            "mode": 1
+          },
+          {
+            "id": "00000000-0000-0000-0000-EndBlock",
+            "type": 100,
+            "level": 100,
+            "disabled": false,
+            "endEvent": 1,
+            "steps": [
+              {
+                "id": "f642d58e-1261-f398-bfc2-84f7e994e4bb",
+                "type": 101,
+                "level": 100,
+                "disabled": false,
+                "endEvent": 1,
+                "actionName": "End"
+              }
+            ],
+            "name": "End Block",
+            "iteration": 1,
+            "mode": 1
+          }
+        ]
+      }
+    ],
+    "testObjects": []
+  }
+}
